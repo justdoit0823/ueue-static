@@ -1,1 +1,5 @@
-#This files servers for ueue server static file request.
+This files servers for ueue server static file request.
+
+root-----www(servers for www.ueue.cc's static files.)
+     |
+     |---
