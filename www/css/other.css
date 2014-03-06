@@ -6,7 +6,7 @@
 	Last Modify:	Alex
 */
 	* { word-wrap: break-word;}
-	body { font-family: "Microsoft Yahei"; font-size: 12px; color: #333; min-height: 100%; background: url(../img/background1.png) repeat; min-width: 1040px;}
+	body { font-family: "Microsoft Yahei"; font-size: 12px; color: #333; min-height: 100%; background: url(http://static.ueue.cc/www/img/background1.png) repeat; min-width: 1040px;}
 	body, ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc { margin: 0; padding: 0; }
 	ul li { list-style: none; }
 	a { color: #3BB; text-decoration: none; outline: none;}
@@ -59,10 +59,10 @@
 	.pdt40 { padding-top: 40px;}
 /*-------------------------------------------------------------------------*/
 
-.ue-othr-header { width: 100%; height: 50px; background: url(../img/pngbg.png) repeat;}
+.ue-othr-header { width: 100%; height: 50px; background: url(http://static.ueue.cc/www/img/pngbg.png) repeat;}
 	.ue-othr-header-mid { height: 50px;}
 	.ue-othr-logo-area { height: 50px; width: 250px; position: relative; }
-	.ue-othr-logo { height: 50px; width: 78px; background: url(../img/other.png) 0px 1px;}
+	.ue-othr-logo { height: 50px; width: 78px; background: url(http://static.ueue.cc/www/img/other.png) 0px 1px;}
 	.ue-othr-maintitle { display: block; padding: 0 10px; height: 30px; line-height: 30px; color: #FFF; font-size: 14px; background: #3BB; position: absolute; left: 90px; bottom: 5px;}
 	.ue-othr-nav { height: 50px; line-height: 50px; width: 750px; position: relative; }
 		.ue-othr-nav1{ height: 50px;}
@@ -92,20 +92,20 @@
 	
 /*一分钟知晓我们*/
 .ue-othr-knowus-1 { width: 960px; padding: 20px; height: 325px;  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);}
-	.ue-othr-knowus-1-pic { width: 400px; height: 325px; background: url(../img/other.png) -10px -95px;}
+	.ue-othr-knowus-1-pic { width: 400px; height: 325px; background: url(http://static.ueue.cc/www/img/other.png) -10px -95px;}
 	.ue-othr-knowus-1-text { width: 520px; height: 325px; overflow: hidden;}
 	.ue-othr-knowus-1-text h1 { text-align: right; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8); color: #333; padding: 20px 0;}
 	.ue-othr-knowus-1-text p { line-height: 25px;}
 .ue-othr-knowus-2 { width: 1000px; padding: 20px 0;  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);}
 	.ue-othr-scollbtn { width: 1000px; height: 76px;}
-	.ue-othr-scollbtn a { display: block; height: 76px; width: 76px; margin: 0 auto; background: url(../img/other.png) -144px -4px;}
-	.ue-othr-scollbtn a:hover { background: url(../img/other.png) -224px -4px;}
+	.ue-othr-scollbtn a { display: block; height: 76px; width: 76px; margin: 0 auto; background: url(http://static.ueue.cc/www/img/other.png) -144px -4px;}
+	.ue-othr-scollbtn a:hover { background: url(http://static.ueue.cc/www/img/other.png) -224px -4px;}
 	.one-third{  padding: 0 20px; width: 293px; float: left; margin-top: 20px; }
 	.one-third p {line-height: 20px; color: #333;margin: 9px 0;}
 	.one-two { padding: 0 20px; width: 460px; float: left; margin-top: 20px;}
 	.one-two p {line-height: 20px; color: #333;margin: 9px 0;}
 .ue-othr-knowus-3 { width: 960px; padding: 20px; height: 210px;  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);}
-	.ue-othr-knowus-3-pic { width: 400px; height: 220px; background: url(../img/other.png) -5px -455px no-repeat;}
+	.ue-othr-knowus-3-pic { width: 400px; height: 220px; background: url(http://static.ueue.cc/www/img/other.png) -5px -455px no-repeat;}
 	.ue-othr-knowus-3-text { width: 520px; height: 325px; overflow: hidden;}
 	.ue-othr-knowus-3-text h1 { text-align: left; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8); color: #333; padding: 20px 0;}
 	.ue-othr-knowus-3-text p { line-height: 25px;}
