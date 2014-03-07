@@ -76,9 +76,9 @@ function dellable(){
 
 	if(s.length > 1) location.search = '?' + s.join('&');
 
-	else if(s.length = 1) location.search = '?' + s[0];
+	else if(s.length == 1) location.search = '?' + s[0];
 
-	else location.search = "";
+	else location.href = location.href.split('?')[0];
 	
     }
           
@@ -224,3 +224,4 @@ $(document).ready(function(){
         $(".yz-meb-btn1").trigger("click");
     })
 })
+
