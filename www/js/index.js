@@ -25,21 +25,21 @@ function loadlable(){
     if(location.search.length > 0) search = location.search.substring(1);
     if(search != undefined && search.length > 0) tags = search.split('&');
     for(i in tags){
-	item = tags[i].split('=');
-	if(item && item[0] && item[1]){
+	lable = tags[i].split('=');
+	if(lable && lable[0] && lable[1]){
 	    if($(".yz-idx-line").css('display') == 'none'){
 		$(".yz-idx-line").show();
 		$(".yz-idx-line .wp1000").append("<div class='z cl yz-idx-line-p'></div>");
 	    }
 	    var cls,text,data;
-	    cls = 'yz-work-lable-' + item[0];
-	    if(item[0] == 'trade'){
-		text = decodeURIComponent(item[1]);
-		data = item[0] + '=' + text;
+	    cls = 'yz-work-lable-' + lable[0];
+	    if(lable[0] == 'trade'){
+		text = decodeURIComponent(lable[1]);
+		data = lable[0] + '=' + text;
 	    }
 	    else{
-		text = texts[item[0]][item[1]];
-		data = item[0] + '=' + item[1];
+		text = texts[lable[0]][lable[1]];
+		data = lable[0] + '=' + lable[1];
 	    }
 	    addlable(cls,text,data);
 	}
@@ -224,4 +224,5 @@ $(document).ready(function(){
         $(".yz-meb-btn1").trigger("click");
     })
 })
+
 
