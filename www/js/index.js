@@ -1,5 +1,3 @@
-
-
 // works and events ajax requesturl
 
 var workrqturl="/works";
@@ -64,13 +62,13 @@ function dellable(){
 
 	var i = $(this).parent().index();
 
-	console.log(i);
+	//console.log(i);
 
 	if(i == undefined) i = 0;
 
 	//else i;
 
-	console.log(i);
+	//console.log(i);
 
 	s.splice(i,1);
 
@@ -224,5 +222,6 @@ $(document).ready(function(){
         $(".yz-meb-btn1").trigger("click");
     })
 })
+
 
 
