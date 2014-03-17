@@ -2,13 +2,11 @@
 
 $(document).ready(function(){
 
-
     //post user discuss
 
     $(".yz-idx-module-discus-sub").click(function(){
 	
 	var settings={
-
 	    url:location.href,
 
 	    type:"post",
@@ -34,33 +32,7 @@ $(document).ready(function(){
 	}
 	$.ajax(settings);
     })
-   /*$(".yz-idx-module-discusbox form").ajaxForm({
-                            dataType:"json",
-                            beforeSubmit:function(a,f,o){
-			       var rcontent=$("#review-content-tx").val();
-                               if(!rcontent){
-                                     alert("请写下你的评论");
-                                     return false;
-                               }
-                               $(".yz-idx-module-discus-sub").val("发言中...");
-                               $(".yz-idx-module-discus-sub").attr('disabled','disabled');
-                            },
-                            error:function(jq,data,errorThrow){
-                                    alert(data);
-                            },
-                            success:function(result){
-                               if(result.status){
-                                 alert("评论成功！");
-                                 $(".yz-idx-module-discus-sub").val("发言");
-                                 $(".yz-idx-module-discus-sub").attr('disabled','');
-                                 //$("#review-content-tx").val("欢迎各抒己见");
-                                 $(result.msg).appendTo(".yz-idx-module-discus-ul");
-                               }
-                               else{
-                                 alert(result.msg);
-                               }
-                            }
-                })*/
+
     //share to sinaweibo
 
      $(".yz-csina").click(function(){

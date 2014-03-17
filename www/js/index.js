@@ -21,8 +21,8 @@ function loadlable(){
 
     var tags,search;
     if(location.search.length > 0) search = location.search.substring(1);
-    if(search != undefined && search.length > 0) tags = search.split('&');
-    for(i in tags){
+    if(search !== undefined && search.length > 0) tags = search.split('&');
+    for(var i in tags){
 	lable = tags[i].split('=');
 	if(lable && lable[0] && lable[1]){
 	    if($(".yz-idx-line").css('display') == 'none'){
@@ -62,13 +62,7 @@ function dellable(){
 
 	var i = $(this).parent().index();
 
-	//console.log(i);
-
-	if(i == undefined) i = 0;
-
-	//else i;
-
-	//console.log(i);
+	if(i === undefined) i = 0;
 
 	s.splice(i,1);
 
@@ -151,9 +145,6 @@ $(document).ready(function(){
 });
 
 $(document).ready(function() {
-	
-    var sideArray = new Array(1,2);
-	showSideBar(sideArray);
 
 	var slideLength = $(".ue-index-slide-item").length;	   	//  total 3-cols slides
 	var slideIndex  = 0;					//  default index -- initial showed slide	

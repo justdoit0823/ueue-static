@@ -3,9 +3,9 @@ var search_urls={
     wk : "/works?lable=",
     rcd : "/records?lable=",
     usr : "/professional?lable="
-}
+};
 
-var special_urls=["records", "works","professional"]
+var special_urls=["records", "works","professional"] ;
 
 
 var defult_search_tip="- 搜搜你感兴趣的标签 -";
@@ -87,45 +87,6 @@ $(document).ready(function(){
     })
 
 })
-
-
-//show slide bar
-
-function showSideBar(indexArray)
-	{
-		// alert('hide');
-		if (!(Object.prototype.toString.call(indexArray) === '[object Array]')) {
-			alert("余总，你用的是数组么？真替你智商捉急！！！");
-
-			return;
-		};
-
-		var sideItems = $(".ue-main-icon").children();
-		var sideCount = sideItems.length;
-		var arrayLength = indexArray.length;
-		var i;
-		if (arrayLength > sideItems) {
-			alert("余总，咱没那么多项，您减点儿...");
-
-			return;
-		};
-
-		for (i = 0; i < arrayLength; i++) {
-			if (isNaN(indexArray[i]) || indexArray[i] < 1 || indexArray[i] == undefined) {
-				alert("数组非法");
-
-				return;
-			};
-		};
-
-		for (i = 0; i < sideCount; i++) {
-			sideItems.eq(i).hide();
-		};
-
-		for (i =0; i < arrayLength; i++) {
-			sideItems.eq(indexArray[i] - 1).show();
-		};
-	}
 
 
 
