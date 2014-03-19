@@ -18,7 +18,7 @@ $(document).ready(function(){
              if(val){
                 var lbs=lable.split(',');
                 var is_repeat=false;
-                for(i in lbs)
+                for(var i in lbs)
                    if((lbs[i])==val){
                        is_repeat=true;
                        break;
@@ -121,8 +121,8 @@ function completeUploadpic(ProgressWrapper,serverData)
     var editorArea=document.createElement("textarea");
     editorArea.innerHTML="- 描述 -";
     editorArea.onkeydown=function (event){if (event.keyCode==13) {}};
-    editorArea.onblur=function (){if(this.innerHTML == '') this.innerHTML="- 描述 -"};
-    editorArea.onfocus=function (){if(this.innerHTML == '- 描述 -') this.innerHTML=""};
+    editorArea.onblur=function (){if(this.innerHTML === '') this.innerHTML="- 描述 -" ;};
+    editorArea.onfocus=function (){if(this.innerHTML === '- 描述 -') this.innerHTML="" ;};
     editorText.appendChild(editorArea);
     editorDelete=document.createElement("span");
     editorDelete.className="editor-pic-del";
@@ -145,7 +145,7 @@ function completeUploadpic(ProgressWrapper,serverData)
 // init flash
 
 function initflash(limit){
-    if(limit == undefined) return;
+    if(limit === undefined) return;
     window.onload = function() {
 			var settings = {
 				flash_url : "/static/flash/swfupload.swf",
