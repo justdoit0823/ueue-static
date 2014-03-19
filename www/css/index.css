@@ -183,7 +183,7 @@
 	.ue-slide-right { height:40px; width: 40px; background: url(http://static.ueue.cc/www/img/index.png) -57px -10px no-repeat; cursor: pointer;}
 		.ue-slide-right:hover { height:40px; width: 40px; background: url(http://static.ueue.cc/www/img/index.png) -57px -60px no-repeat;}
 .ue-index-tags { padding-bottom: 14px;  border-bottom: 1px solid #CCC; margin-top: 0 !important; }
-	.ue-index-tags div { height: 150px; padding: 0 5px; overflow: hidden}
+	.ue-index-tags div { height: 75px; padding: 0 5px; overflow: hidden}
 		.ue-index-tags a { line-height: 25px; color: #999; margin-right: 10px; float: left; text-shadow: 1px 1px 1px #FFF;}
 		.ue-index-tags a:hover { color: #3BB; text-decoration: underline; -webkit-transition: all 500ms;}
 	.ue-index-type { padding: 2px 5px; color: #FFF !important; text-shadow: none; background: #3BB; margin-left: 6px;}
