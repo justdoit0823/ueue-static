@@ -431,7 +431,7 @@
 			.showct-ct-surpot-icon-off {  width: 120px; height: 120px; margin-right: 100px; background: url(http://static.ueue.cc/www/img/show-bodyico.png) -5px -1219px no-repeat;}
 		.ue-work-more { width: 336px; color: #999; text-shadow: 1px 1px 1px #FFF; }
 			.ue-work-more li { float: left; width: 145px; margin-left: 15px; margin-top: 10px; position: relative;}
-				.ue-work-more li a { display: block; width: 145px; height: 89px; overflow: hidden;}
+				.ue-work-more li a { display: block; width: 145px; height: 89px; overflow: hidden; background: #FFF;}
 				.ue-work-more li p { line-height: 30px; height: 30px; overflow: hidden;}
 			.ue-more-video span { display: block; height: 52px; width: 52px; position: absolute; top: 18px; left: 46px; background: url(http://static.ueue.cc/www/img/show-bodyico.png) -19px -740px no-repeat;}
 			.ue-more-txt a { background: #FFF;}
