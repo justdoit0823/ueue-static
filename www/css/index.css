@@ -399,9 +399,10 @@
 			.yz-idx-calendar-date a { float: left; text-align: center; height: 42px; width: 42px; line-height: 42px; color: #999; cursor: pointer; position: relative;}
 				#date-thisday { background: #3BB; color: #FFF;}
 				.date-sun { color: #F00;}
-				.yz-idx-calendar-date a:hover { background: #666; color: #FFF; -webkit-transition: all 500ms;}
+				.yz-idx-calendar-date a.date-have:hover { background: #666; color: #FFF; -webkit-transition: all 500ms;}
 				.date-none:hover { background: none !important; cursor: default;}
 		.yz-idx-calendar-srch { position: absolute; left: 21px; bottom: 2px; height: 42px; width: 294px; }
+			.yz-idx-calendar-srch p { line-height: 42px; color: #999;}
 		#yz-idx-c-srch-b,#yz-idx-c-srch-e { height: 30px; width: 100px; text-align: center; line-height: 30px; margin: 5px 0; color: #999; border: 1px solid #CCC; font-size: 14px;}
 		#yz-idx-c-srch-t { height: 30px; width: 30px; text-align: center; line-height: 30px; margin: 5px 0; color: #999; font-size: 20px;}
 		.yz-idx-c-srch-go { height: 30px; width: 50px; background: #666; text-align: center; line-height: 30px; margin: 5px 0; color: #FFF; font-size: 14px; border: 1px solid #CCC; cursor: pointer;}
