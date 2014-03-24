@@ -209,27 +209,14 @@
 	.ue-bottomnav a:hover { color: #3BB;}
 				
 /*--------------------------用户搜索页面---------------------------*/
-.yz-idx-show-search-tag6-list { position: absolute; top: 54px; left: 0; background: url(http://static.ueue.cc/www/img/whitebg80.png) repeat; padding: 0 5px; width: 480px; height:253px; overflow: hidden; z-index: 2000; }
-			.yz-idx-show-search-tag6-list a { width: 60px; height: 30px; margin: 10px 0; line-height: 30px; float: left; color: #333; text-align: center; font-size: 12px; }
-				.yz-idx-show-search-tag6-list a:hover { background: #333; color: #FFF; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
-				
-.ue-user-list { width: 640px;}
-		.ue-user-list li { float: left; height: 193px; width: 193px; padding: 0 0 40px 15px; position: relative;}
-		.ue-user-bg { height: 191px; width: 191px; background: #FFF;  position: relative; overflow: hidden; border: 1px solid #FFF;}
-		.ue-user-info { width: 191px; height: 50px; background: #FFF; position: absolute; left: 0px; top: 141px;}
-			.ue-user-info-name {  line-height: 20px; line-height: 20px; font-size: 14px; width: 186px;  color: #666; margin-top: 7px; padding-left: 5px;}
-			.ue-user-area { line-height: 20px; font-size: 12px; color: #CCC; padding-left: 5px;}
-			.ue-user-m { position: absolute; left: 85px; top: 75px;}
-		.ue-user-bg:hover { border: 1px solid #3BB;}
-		.ue-user-bg:hover .ue-user-info{ top: 194px;  -webkit-transition: all 300ms; }
-
-.yz-user-module3-left  {  width: 250px; height: 320px; border-right: 1px solid #CCC; padding: 0 35px; overflow: hidden; text-shadow: 1px 1px 1px #FFF;}
-
-.yz-user-module3-right  {  width: 250px; height: 320px; padding: 0 34px; overflow: hidden; border-left: 1px solid #FFF; text-shadow: 1px 1px 1px #FFF;}
-.user-icon9 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -155px -332px no-repeat;}
-.user-icon10 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -155px -377px no-repeat;}
-	.ue-user-right-list { padding: 10px 0;}
-	.ue-user-right-list li { float: left; margin-left: 14px; margin-top: 10px;}
+	.yz-idx-user-search-tag{z-index:7 ;width:854px; background:  #3BB; height:  32px; margin-top: 53px;}
+		.ue-search-user-left { width: 212px; height: 32px; background: #333; position: relative;}
+		.ue-search-user-left p { color: #FFF; line-height: 32px; padding-left: 10px; cursor: pointer;}
+		.ue-search-user-left p span { padding: 0 7px;}
+			.ue-search-user-nav { width: 212px; height: 288px; background: #3BB; position: absolute; left: 0; top: 32px; display: none;}
+			.ue-search-user-nav a { float: left; line-height: 32px; width: 53px; color: #FFF; text-align: center;}
+				.ue-search-user-nav a:hover { cursor: pointer; background: #333; -webkit-transition: all 500ms;}
+		div.ue-search-user-left:hover .ue-search-user-nav{ display: block;}
 		
 /*--------------------------作品搜索结果---------------------------*/
 
