@@ -190,47 +190,15 @@
 	a.ue-index-type:hover { background: #333; text-decoration: none;}
 		
 /*--------------------------作品搜索条---------------------------*/
-	.yz-idx-show-search-tag {}
-		.yz-idx-show-search-tag li { position: relative; z-index: 2000;}
-		.yz-idx-show-search-tag li span{ display: block; margin-right: 63px; height: 50px; line-height: 50px; font-size: 16px; margin-top: 4px; }
-		.yz-idx-show-search-tag li span:hover { border-top: 4px solid #3BB; margin-top: 0; cursor: pointer;}
-	
-		.yz-idx-show-search-tag1-list { position: absolute; top: 54px; left: 0; background: url(http://static.ueue.cc/www/img/whitebg80.png) repeat; width: 130px; height:0px; overflow: hidden;  padding-top: 0; z-index: 2001;}
-			.yz-idx-show-search-tag1-list a { border: none; float: left; width: 60px; color: #333; line-height: 40px; height: 40px; font-size: 14px; padding-left: 60px; font-weight: normal; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; margin: 5px;}			
-			.yz-idx-show-search-tag1-list a:hover { background-color: #333; color: #FFF; -webkit-transition: all 500ms; }
-				.show-icon1 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -14px -283px no-repeat;}
-				.show-icon2 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -14px -23px no-repeat;}
-				.show-icon3 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -14px -89px no-repeat;}
-				.show-icon4 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -14px -153px no-repeat;}
-				.show-icon5 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -14px -218px no-repeat;}
+	.yz-idx-show-search-tag {z-index:7 ;width:854px; background:  #3BB; height:  32px; margin-top: 53px;}
+		.ue-search-show-left { width: 210px; height: 32px; background: #3BB; position: relative;}
+		.ue-search-show-left a { float: left; width: 42px; height: 32px; cursor: pointer; line-height: 32px; text-align: center; color:#FFF;}
 			
-		.yz-idx-show-search-tag2-list { position: absolute; top: 54px; left: 0; background: url(http://static.ueue.cc/www/img/whitebg80.png) repeat; width: 497px; height:0px; overflow: hidden; z-index: 2000; }
-			.yz-idx-show-search-tag2-list-title { height: 50px; width: 497px;}
-				.yz-idx-show-search-tag2-list-title a { color: #FFF; background-color: #333; float: left; line-height: 50px; width: 71px; text-align: center; cursor: default; font-size: 14px; }
-				.yz-idx-show-search-tag2-list-title-on { color: #333 !important; background: #FFF !important;}
-					.yz-idx-show-search-tag2-list-title a:hover { color: #FFF;}			
-				.show-icon6 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -155px -22px no-repeat;}
-				.show-icon7 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -155px -89px no-repeat;}
-				.show-icon8 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -155px -153px no-repeat;}
-				.show-icon9 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -155px -215px no-repeat;}
-				.show-icon10 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -155px -282px no-repeat;}
-
-		.yz-idx-show-search-tag3-list { position: absolute; top: 54px; left: 0; background: url(http://static.ueue.cc/www/img/whitebg80.png) repeat; width: 130px; height:0px; overflow: hidden; z-index: 2000; }
-			.yz-idx-show-search-tag3-list a { border: none; float: left; width: 70px; color: #333; line-height: 40px; height: 40px; font-size: 14px; padding-left: 50px; font-weight: normal; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; margin: 5px;}			
-			.yz-idx-show-search-tag3-list a:hover { background-color: #333; -webkit-transition: all 500ms; color: #FFF;}
-
-		.yz-idx-show-search-tag4-list { position: absolute; top: 54px; left: 0; background: url(http://static.ueue.cc/www/img/whitebg80.png) repeat; width: 130px; height:0px; overflow: hidden; z-index: 2000; }
-			.yz-idx-show-search-tag4-list a { border: none; float: left; width: 70px; color: #333; line-height: 40px; height: 40px; font-size: 14px; padding-left: 50px; font-weight: normal; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; margin: 5px;}			
-			.yz-idx-show-search-tag4-list a:hover { background-color: #333; -webkit-transition: all 500ms; color: #FFF;}
-				.show-icon11 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -19px -332px no-repeat;}
-				.show-icon12 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -19px -377px no-repeat;}
-				.show-icon13 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -19px -425px no-repeat;}
-				.show-icon14 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -19px -472px no-repeat;}
-				.show-icon15 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -19px -522px no-repeat;}
-			.js-list span { position: relative;}
-			.js-list-1 { border-bottom: 3px solid #000; display: none; height: 250px !important;}
-				.js-list span:hover .yz-idx-clickicon { display: block;}
-			.yz-idx-clickicon { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -182px -1274px no-repeat; position: absolute; top: 5px; right: -30px; display: none; height: 30px; width: 22px; }
+		.ue-search-show-right { width: 642px; height: 32px; border-left: 2px solid #333;}
+		.ue-search-show-right a { float: left; height: 32px; width: 80px; color: #FFF; line-height: 32px; text-align: center;}
+		.ue-search-show-left a.active,.ue-search-show-right a.active { background: #333;}
+		.ue-search-show-left a:hover,.ue-search-show-right a:hover { background: #333; cursor: pointer;}
+		
 /*
 	Level:			Channal
 	Explain:		底部导航
