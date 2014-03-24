@@ -25,6 +25,7 @@
 			.yz-idx-page a span { font-size: 12px; font-weight: normal; font-family: Arial, Helvetica, sans-serif;}
 		.yz-idx-page:hover { background: #3BB;  -webkit-transition: all 500ms;}
 	.ue-middle {  border-left: 1px solid #CCC; border-right: 1px solid #CCC; height: 100%;}
+	.ue-all{border-top:1px solid #CCC}
 	.ue-left { padding-right: 11px;}
 /*
 	Level:			Channal
@@ -323,8 +324,19 @@
 			
 			
 /*--------------------------事件搜索条---------------------------*/
-	.yz-idx-event-search-tag { z-index: 7;}
-		.yz-idx-event-search-tag li { position: relative; }
+	.yz-idx-event-search-tag{z-index:7 ;width:854px; background:  #3BB; height:  32px; margin-top: 53px;}
+		.ue-search-left { width: 212px; height: 32px; background: #333; position: relative;}
+		.ue-search-left p { color: #FFF; line-height: 32px; padding-left: 10px; cursor: pointer;}
+		.ue-search-left p span { padding: 0 7px;}
+			.ue-search-recorde-nav { width: 212px; height: 224px; background: #3BB; position: absolute; left: 0; top: 32px; display: none;}
+			.ue-search-recorde-nav a { line-height: 32px; width: 212px; display: block; color: #FFF; text-align: center;}
+				.ue-search-recorde-nav a:hover { cursor: pointer; background: #333; -webkit-transition: all 500ms;}
+		div.ue-search-left:hover .ue-search-recorde-nav{ display: block;}
+		.ue-search-right { width: 640px; height: 32px; padding: 0 1px;}
+		.ue-search-right a { float: left; height: 32px; width: 80px; color: #FFF; line-height: 32px; text-align: center;}
+		.ue-search-right a.active { background: #333;}
+		.ue-search-right a:hover { background: #333; cursor: pointer;}
+		/*.yz-idx-event-search-tag li { position: relative; }
 		.yz-idx-event-search-tag li span{ display: block; margin-right: 63px; height: 50px; line-height: 50px; font-size: 16px; margin-top: 4px; }
 		.yz-idx-event-search-tag li span:hover { border-top: 4px solid #3BB; margin-top: 0; cursor: pointer;}
 	
@@ -353,7 +365,7 @@
 		.yz-idx-event-search-tag4-list { position: absolute; top: 54px; left: 0; background: url(http://static.ueue.cc/www/img/whitebg80.png) repeat; width: 130px; height:0px; overflow: hidden; z-index: 2000; }
 			.yz-idx-event-search-tag4-list a { border: none; float: left; width: 70px; color: #333; line-height: 40px; height: 40px; font-size: 14px; padding-left: 50px; font-weight: normal; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; margin: 5px;}			
 			.yz-idx-event-search-tag4-list a:hover { background-color: #333; color: #FFF; -webkit-transition: all 500ms; }
-		.yz-idx-event-search-tag5 { display: none;}
+		.yz-idx-event-search-tag5 { display: none;}*/
 
 /*--------------------------事件搜索结果---------------------------*/
 
@@ -401,7 +413,7 @@
 				.yz-idx-calendar-date a.date-have:hover { background: #666; color: #FFF; -webkit-transition: all 500ms;}
 				.date-none:hover { background: none !important; cursor: default;}
 		.yz-idx-calendar-srch { position: absolute; left: 21px; bottom: 2px; height: 42px; width: 294px; }
-			.yz-idx-calendar-srch p { line-height: 42px; color: #999;}
+			.yz-idx-calendar-srch p { line-height: 42px; color: #999; text-align: center;}
 		#yz-idx-c-srch-b,#yz-idx-c-srch-e { height: 30px; width: 100px; text-align: center; line-height: 30px; margin: 5px 0; color: #999; border: 1px solid #CCC; font-size: 14px;}
 		#yz-idx-c-srch-t { height: 30px; width: 30px; text-align: center; line-height: 30px; margin: 5px 0; color: #999; font-size: 20px;}
 		.yz-idx-c-srch-go { height: 30px; width: 50px; background: #666; text-align: center; line-height: 30px; margin: 5px 0; color: #FFF; font-size: 14px; border: 1px solid #CCC; cursor: pointer;}
