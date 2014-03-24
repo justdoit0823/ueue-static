@@ -258,8 +258,8 @@
 	.yz-idx-body-body{  padding: 0; overflow: hidden; padding-bottom: 15px; z-index: 6;}
 	.yz-idx-body-title { height: 50px;  padding-bottom: 20px; position: relative;}
 		.yz-idx-body-title-p { line-height: 50px; width: 640px; text-align: center; color: #999; text-shadow: 1px 1px 1px #FFF; font-size: 24px; }
-		
-		
+		.ue-user-right-list { padding: 10px 0;}
+		.ue-user-right-list ul li { float: left; margin-left: 14px; margin-top: 10px;}		
 		.yz-idx-goodwork { height: 402px;  position: relative; border-bottom: 1px solid #CCC;}
 		.yz-idx-goodwork-box { width: 320px; height: 342px; overflow: hidden; position: relative; margin-left: 8px;}
 		.yz-idx-goodwork-ul { position: absolute; top: 0;}
