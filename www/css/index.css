@@ -217,6 +217,15 @@
 			.ue-search-user-nav a { float: left; line-height: 32px; width: 53px; color: #FFF; text-align: center;}
 				.ue-search-user-nav a:hover { cursor: pointer; background: #333; -webkit-transition: all 500ms;}
 		div.ue-search-user-left:hover .ue-search-user-nav{ display: block;}
+		.ue-user-list { width: 640px;}
+		.ue-user-list li { float: left; height: 193px; width: 193px; padding: 0 0 40px 15px; position: relative;}
+		.ue-user-bg { height: 191px; width: 191px; background: #FFF;  position: relative; overflow: hidden; border: 1px solid #FFF;}
+		.ue-user-info { width: 191px; height: 50px; background: #FFF; position: absolute; left: 0px; top: 141px;}
+			.ue-user-info-name {  line-height: 20px; line-height: 20px; font-size: 14px; width: 186px;  color: #3BB; margin-top: 7px; padding-left: 5px;}
+			.ue-user-area { line-height: 20px; font-size: 12px; color: #666; padding-left: 5px;}
+			.ue-user-m { position: absolute; left: 85px; top: 75px;}
+		.ue-user-bg:hover { border: 1px solid #3BB;}
+		.ue-user-bg:hover .ue-user-info{ top: 194px;  -webkit-transition: all 300ms; }
 		
 /*--------------------------作品搜索结果---------------------------*/
 
@@ -291,36 +300,6 @@
 		.ue-search-right a { float: left; height: 32px; width: 80px; color: #FFF; line-height: 32px; text-align: center;}
 		.ue-search-right a.active { background: #333;}
 		.ue-search-right a:hover { background: #333; cursor: pointer;}
-		/*.yz-idx-event-search-tag li { position: relative; }
-		.yz-idx-event-search-tag li span{ display: block; margin-right: 63px; height: 50px; line-height: 50px; font-size: 16px; margin-top: 4px; }
-		.yz-idx-event-search-tag li span:hover { border-top: 4px solid #3BB; margin-top: 0; cursor: pointer;}
-	
-		.yz-idx-event-search-tag1-list { position: absolute; top: 54px; left: 0; background: url(http://static.ueue.cc/www/img/whitebg80.png) repeat; width: 260px; height: 0px; overflow: hidden; z-index: 2000;}
-			.yz-idx-event-search-tag1-list a { border: none; float: left; width: 120px; color: #333; line-height: 40px; height: 40px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; margin: 5px; font-size: 14px; text-align: center; font-weight: normal;}			
-			.yz-idx-event-search-tag1-list a:hover { background-color: #333; color: #FFF; -webkit-transition: all 500ms; }
-			
-		.yz-idx-event-search-tag2-list { position: absolute; top: 54px; left: 0; background: url(http://static.ueue.cc/www/img/whitebg80.png) repeat; width: 497px; height:0px; overflow: hidden; z-index: 2000; }
-			.yz-idx-event-search-tag2-list-title { height: 50px; width: 497px;}
-				.yz-idx-event-search-tag2-list-title a { color: #FFF; background-color: #333; float: left; line-height: 50px; width: 71px; text-align: center; cursor: default; font-size: 14px;}
-				.yz-idx-event-search-tag2-list-title-on { background: #FFF !important;  color: #333 !important;}
-					.yz-idx-event-search-tag2-list-title a:hover { color: #FFF;}
-			.yz-idx-event-search-tag2-list-off { display: none;}
-			.tab-2,.tab-3,.tab-4,.tab-5,.tab-6,.tab-7 { display: none;}
-			.tab-list { float: left; }
-			.tab-list a { width: 61px; height: 30px; margin: 10px 5px; line-height: 30px; float: left; color: #000; text-align: center; font-size: 12px; }
-				.tab-list a:hover { background-color: #333; color: #FFF; -moz-border-radius: 4px; -webkit-border-radius: 4px; -webkit-transition: all 500ms;}
-				.event-icon6 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -151px -523px no-repeat;}
-				.event-icon10 { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -156px -424px no-repeat;}
-
-
-		.yz-idx-event-search-tag3-list { position: absolute; top: 54px; left: 0; background: url(http://static.ueue.cc/www/img/whitebg80.png) repeat; width: 130px; height:0px;  overflow: hidden; z-index: 2000; }
-			.yz-idx-event-search-tag3-list a { border: none; float: left; width: 70px; color: #333; line-height: 40px; height: 40px; font-size: 14px; padding-left: 50px; font-weight: normal; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; margin: 5px;}			
-			.yz-idx-event-search-tag3-list a:hover { background-color: #333; color: #FFF; -webkit-transition: all 500ms; }
-
-		.yz-idx-event-search-tag4-list { position: absolute; top: 54px; left: 0; background: url(http://static.ueue.cc/www/img/whitebg80.png) repeat; width: 130px; height:0px; overflow: hidden; z-index: 2000; }
-			.yz-idx-event-search-tag4-list a { border: none; float: left; width: 70px; color: #333; line-height: 40px; height: 40px; font-size: 14px; padding-left: 50px; font-weight: normal; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; margin: 5px;}			
-			.yz-idx-event-search-tag4-list a:hover { background-color: #333; color: #FFF; -webkit-transition: all 500ms; }
-		.yz-idx-event-search-tag5 { display: none;}*/
 
 /*--------------------------事件搜索结果---------------------------*/
 
