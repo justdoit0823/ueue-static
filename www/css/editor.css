@@ -1,3 +1,102 @@
+
+/*
+	Level:			Global
+	Explain:		全局
+	Last Modify:	Alex
+*/
+	* { word-wrap: break-word;}
+	body { font-family: "Microsoft Yahei"; font-size: 12px; color: #333; min-height: 100%; background: url(http://static.ueue.cc/www/img/background1.png) repeat;}
+	body, ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc { margin: 0; padding: 0; }
+	ul li { list-style: none; }
+	a { color: #3BB; text-decoration: none; outline: none;}
+		body a:hover { text-decoration: none; }
+		img { border: none; background-color: #333;}
+	label { cursor: pointer; }
+	input { font-family: "Microsoft Yahei"; -webkit-appearance:none;-moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;}
+	
+/*
+	Level:			Global
+	Explain:		body宽度
+	Last Modify:	Alex
+*/
+	.wp { width: 100%;}
+	.wp640 { margin: 0 auto; width: 640px; position: relative; z-index: 999; top: 0;}
+	.wp1000,.wp1202 { margin: 0 auto; width: 1202px;}
+	.ue-user-allbody { min-width:1240px;width: 100%; height: 100%; opacity: 0.7; filter: alpha(opacity=70); top: 0; left: 0; background-color: black; position: fixed !important; z-index: 249;}
+	.yz-edbd { background: #fff;}
+	.user-close-window {display: block; width: 70px; height: 70px; position: fixed; top: 0px; right: 0px; background: url(http://static.ueue.cc/www/img/report.png) -197px -35px no-repeat; cursor: pointer; z-index: 1005;}
+.user-close-window:hover { background: url(http://static.ueue.cc/www/img/report.png) -310px -35px no-repeat;}
+
+/*
+	Level:			Global
+	Explain:		浮动
+	Sample:			class="z/y"
+	Last Modify:	Alex
+*/
+	.z { float: left;}
+	.y { float: right;}
+	
+/*
+	Level:			Global
+	Explain:		清除浮动
+	Sample:			class="cl"
+	Last Modify:	Alex
+*/
+	.cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } 
+	.cl { zoom: 1;}
+	
+/*
+	Level:			Global
+	Explain:		顶部边距
+	Last Modify:	Alex
+*/
+	.mgt10 { margin-top: 10px;}
+	.mgt20 { margin-top: 20px;}
+	.mgt40 { margin-top: 40px;}
+	.mgt60 { margin-top: 60px;}
+	.mgt100{ margin-top: 100px;}
+
+
+/*
+	Level:			Global
+	Explain:		header
+	Last Modify:	Alex
+*/
+	.yz-hdbg { position: fixed; height: 140px; min-width: 1242px; background: url(http://static.ueue.cc/www/img/background1.png) repeat;  z-index: 1; border-bottom: 1px solid #CCC; top: 0; }
+	.ue-hdbg-editor {display:none;}
+	.yz-hdline { position: absolute; height: 10px; top: 0px; left: 0px;  background: #333; }
+	.yz-hd { height: 142px; position: relative; }
+	.logo { position: absolute; top: 5px; display: block; background: url(http://static.ueue.cc/www/img/logo.png) 0px 0px no-repeat; width: 196px; height: 130px; }
+		a.logo:hover { background: url(http://static.ueue.cc/www/img/logo.png) 0px 130px; }
+		.logo span { position: absolute; top: 50px; right: 1px; display: none; background: url(http://static.ueue.cc/www/img/icon-hd.png) -438px -26px no-repeat; padding-left: 15px; height: 12px; overflow: hidden; line-height: 10px; font-size: 12px; color: #333; width: 40px; padding-top: 1px; }
+		a.logo:hover span { display: block;}
+	.yz-nav { display: block; width: 480px; position: absolute; top: 42px; left: 250px; overflow: hidden;}
+		.yz-nav li { float: left; padding: 10px 25px 10px 0;}
+		.yz-nav li a:link,.yz-nav li a:visited { font-size: 19px; color: #000;  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);}
+		.yz-nav li a:hover { color: #3BB; -webkit-transition: all 100ms;}
+		.yz-nav li span { color: #333;}
+/*会员已登陆*/
+	.yz-member { width: 260px; height: 90px; margin-top: 30px;}
+		.yz-avt { display: block; margin-top: 20px; width: 46px; height: 46px; background-color: #FFF; padding: 2px;}
+		.yz-meb-btn { width: 200px; height: 35px;  margin-top: 28px; }
+			.yz-meb-btn a { display: block; width: 35px; height: 35px; margin-left: 15px; float: left; }
+			a.yz-meb-btn1 { background: url(http://static.ueue.cc/www/img/icon-hd.png) -23px -20px no-repeat;}
+				a.yz-meb-btn1:hover { background: url(http://static.ueue.cc/www/img/icon-hd.png) -23px -60px no-repeat; }
+			a.yz-meb-btn2 { background: url(http://static.ueue.cc/www/img/icon-hd.png) -68px -20px no-repeat;}
+				a.yz-meb-btn2:hover { background: url(http://static.ueue.cc/www/img/icon-hd.png) -68px -60px no-repeat;}
+			a.yz-meb-btn3 { background: url(http://static.ueue.cc/www/img/icon-hd.png) -113px -20px no-repeat; position: relative;}
+				a.yz-meb-btn3:hover { background: url(http://static.ueue.cc/www/img/icon-hd.png) -113px -60px no-repeat;}
+				.yz-newmsg { line-height: 14px; color: #FFF; padding: 0 2px; background-color: #F60; position: absolute; top: -6px; left: 28px;  height: 14px; white-space:nowrap;}
+			a.yz-meb-btn4 { background: url(http://static.ueue.cc/www/img/icon-hd.png) -158px -20px no-repeat;}
+				a.yz-meb-btn4:hover { background: url(http://static.ueue.cc/www/img/icon-hd.png) -158px -60px no-repeat;}
+
+        .yz-member p.y {text-align:right;color:#000;line-height:30px;margin-top:12px;width:260px;font-size:12px;}
+        .yz-member a.y {height:23px;line-height:23px; padding:0 8px;background:#FFF; border: 1px solid #3BB; color:#3BB;margin-left:10px;}
+        .yz-member a.y:hover {background:#333; color: #FFF; border: 1px solid #999; -webkit-box-shadow:1px 1px #f1f1f1;-moz-box-shadow:1px 1px #f1f1f1;}
+		
+		.editor-title-tag { position: absolute; top: 0; left: -100px; display: block; width: 80px; height: 42px; padding: 0 10px; font-size: 18px; line-height: 42px; background: #3bb; color: #fff; text-align: right;}
+		
+		
 .editor-logo { height: 89px; width: 150px; background: url(http://static.ueue.cc/www/img/fabulogo.png) no-repeat; margin-top: 30px;}
 .yz-editorbody { background: url(http://static.ueue.cc/www/img/background1.png) repeat; height: auto; min-width: 1242px;}
 	.yz-editorbody>div>div.w640 { border-left: 1px solid #CCC; border-right: 1px solid #CCC;}
@@ -21,21 +120,22 @@ input { background: none;}
 .editor-bk { width: 90px; height: 90px; margin-top: 30px;}
 .editor-back { display: block; width: 90px; height: 90px; background: url(http://static.ueue.cc/www/img/editor.png) -97px -482px;  cursor: pointer; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
 	a.editor-back:hover { background: url(http://static.ueue.cc/www/img/editor.png) -97px -863px;}
-.editor-title { padding: 0 20px;}
+.editor-title { padding: 0 20px; position: relative;}
 .editor-title input { height: 20px; outline: none; border: 1px solid #CCC; width: 578px; padding: 10px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999; line-height: 20px; background: none; }
 	.editor-title input:focus { border: 1px solid #3BB; -webkit-transition: all 500ms;}
-.editor-pic { }
+.editor-pic { position: relative;}
 	.editor-pic ul {}
-		.editor-pic li { padding: 20px; width: 600px; position: relative; float: left; margin-bottom: 10px;}
-	.editor-pic-img { height: 100px; width: 100px; overflow: hidden; margin-right: 20px;}
-		.editor-pic-img img { max-height: 100px;}
-	.editor-pic-text { height: 100px; width: 350px; }
-		.editor-pic-text textarea { outline: none; resize: none; width: 330px; height: 80px; border: 1px solid #CCC; margin-top: -1px; padding: 10px; font-size: 14px; font-family: "Microsoft Yahei"; color: #666; overflow: hidden; background: none;}
-			.editor-pic-text textarea:focus { border: 1px solid #3BB; -webkit-transition: all 500ms;} 
-	.editor-pic-del { display: block; position: absolute; top: 5px; right: 5px; height: 20px; width: 20px; background: url(http://static.ueue.cc/www/img/editor.png) 0 -491px; cursor: pointer;}
+		.editor-pic li { padding: 0 20px 20px 20px; width: 600px; position: relative; float: left; margin-bottom: 10px;}
+	.editor-pic-img { height: 100px; width: 100px; overflow: hidden;border: 1px solid #ccc; position: relative; cursor: pointer;}
+		.editor-pic-img img { max-height: 100px; }
+	
+	.editor-pic-text { height: 100px; width: 497px; border: 1px solid #ccc; border-left: none !important;}
+		.editor-pic-text textarea { outline: none; resize: none; width: 460px; height: 78px; border: none; padding: 10px; font-size: 14px; font-family: "Microsoft Yahei"; color: #666; overflow: hidden; background: none;}
+	.editor-pic-del { display: block; position: absolute; top: 5px; right: 23px; height: 20px; width: 20px; background: url(http://static.ueue.cc/www/img/editor.png) 0 -491px; cursor: pointer;}
+		.editor-pic-del:hover { opacity: 0.7; filter: alpha(opacity=70);}
 	.editor-pic-move { display: block; background: url(http://static.ueue.cc/www/img/editor.png) 0 -525px; width: 100px; height: 50px; margin-left: 20px; cursor: move;}
-	.editor-pic-front { line-height: 30px; width: 98px; height: 28px; text-align: center; border: 1px solid #CCC; margin-left: 20px; position: relative; cursor: pointer; color: #333;}
-		a.editor-pic-front span { display: none; height: 30px; width: 100px; position: absolute; top: -1px; left: -1px; background: url(http://static.ueue.cc/www/img/editor.png) 0 -617px;}
+	.editor-pic-front { height: 94px; width: 94px; border: 3px solid #3bb; position: absolute; left: 0; top: 0; display: block; cursor: pointer;}
+		a.editor-pic-front span { display: none; height: 30px; width: 100px; position: absolute; top: 0; left: -5px; background: url(http://static.ueue.cc/www/img/editor.png) 0 -617px;}
 			a.editor-pic-front .active { display: block ! important; background: url(http://static.ueue.cc/www/img/editor.png) 0 -580px ! important;}
 			a.editor-pic-front:hover span { display: block ! important; background: url(http://static.ueue.cc/www/img/editor.png) 0 -580px ! important; } 
 	.editor-pic-imgname { width: 530px; height: 20px; line-height: 20px;  overflow: hidden; color: #666;}
@@ -50,7 +150,7 @@ input { background: none;}
 	.editor-add-pic input.editor-pic-addbtn { cursor: pointer; outline: none; border: solid; border-width: 0 0 100px 100px; color: #FFF; position: absolute; top: 0; right: 0;  opacity: 0; filter:alpha(opacity=0);}
 		
 	.editor-pic-add p { line-height: 40px; width: 600px;color: #666; margin-left: 20px;}
-.editor-description {  padding-bottom: 20px;}
+.editor-description {  padding-bottom: 20px; position: relative;}
 .editor-description-left { padding: 0 10px 20px; width: 316px;}
 	.editor-desc-title { height: 50px; width: 620px; }
 	.editor-desc-title-p { line-height: 50px; padding-left: 20px; color: #999; font-size: 24px;} 
@@ -86,16 +186,21 @@ input { background: none;}
 	.editor-user p a { text-decoration: underline; cursor: pointer;}
 .editor-tags { width: 336px; border-top: 1px solid #CCC; padding-bottom: 20px;}
 .editor-tags-title { margin-left: 10px; line-height: 20px; font-size: 14px; width: 314px; }
-.editor-tags-box { margin-left: 10px; border: 1px solid #CCC; width: 314px; min-height: 105px; margin-bottom: 20px; padding-top: 10px;}
-	.editor-tags-name { width: 309px;}
+.editor-tags-box {width: 600px; min-height: 105px; padding: 0 20px; position: relative;}
+	.editor-tags-box>div { border-top: 1px solid #CCC; border-bottom: 1px solid #CCC; }
+	.editor-tags-name { width: 600px;}
 		.editor-tags-name span { float: left; padding: 0 32px 0 8px; position: relative; height: 26px; line-height: 26px; color: #FFF; background: #999; margin-left: 5px; margin-top: 5px; white-space:nowrap; cursor: default; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
 		.editor-tags-name span:hover { background: #7F7F7F;}
-		.editor-tags-name span a { display: block; height: 26px; width: 26px; position: absolute; top: 0; right: 0; background: url(http://static.ueue.cc/www/img/editor.png) -23px -488px; cursor: pointer}
-	.editor-tags-text { outline: none; border: none; line-height: 20px; height: 30px; width: 298px; padding: 5px 8px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999; background: none;}
-.editor-cc {}
-	.editor-cc a { margin-left: 10px; width: 250px; border: 1px solid #CCC; height: 30px; line-height: 30px; margin-top: 10px; padding-left: 62px; color: #333; position: relative;}
-	.editor-cc a:hover { background-color: #FFF; cursor: pointer;}
-	.editor-cc a span { display: none; height: 30px; width: 30px; position: absolute; top: 0; right: 10px; background: url(http://static.ueue.cc/www/img/editor.png) -124px -612px no-repeat;}
+		.editor-tags-name span a { display: block; height: 26px; width: 26px; position: absolute; top: 0; right: 0;  background: url(http://static.ueue.cc/www/img/editor.png) -23px -488px; cursor: pointer}
+	.editor-tags-text { outline: none; border: none; line-height: 20px; height: 30px; width: 588px; padding: 5px 8px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999; background: none;}
+.editor-cc { width: 246px; height: 38px; line-height: 38px; border: 1px solid #ccc; margin-left: 20px; position: relative; background: #3cc;}
+	.editor-cc:hover { cursor: pointer;}
+	.editor-cc p,.editor-cc span.y { padding: 0 10px; color: #fff;}
+	.editor-cc-position { width: 248px; height: 210px; position: absolute; bottom: 39px; left: -1px; display: none; background: #f1f1f1;}
+		.editor-cc:hover .editor-cc-position { display: block;}
+	.editor-cc-position a {  width: 186px;  height: 30px; line-height: 30px; padding-left: 62px; color: #333; position: relative;}
+	.editor-cc-position a:hover { background-color: #3bb; cursor: pointer;}
+	.editor-cc-position a span { display: none; height: 30px; width: 30px; position: absolute; top: 0; right: 10px; background: url(http://static.ueue.cc/www/img/editor.png) -124px -612px no-repeat;}
 	.editor-cc-on { background-color: #FFF !important;}
 	.editor-cc-on span { display: block !important;}
 		.no-cc { background: url(http://static.ueue.cc/www/img/editor.png) -122px -573px no-repeat;}
@@ -106,15 +211,15 @@ input { background: none;}
 		.cc-by-sa { background: url(http://static.ueue.cc/www/img/cc.png) 6px -86px no-repeat; }
 		.cc-by { background: url(http://static.ueue.cc/www/img/cc.png) -81px -110px no-repeat;}
 .editor-sub { height: 100px;}
-	.editor-sub div { width: 176px;}
 	.editor-sub input { border: none; outline: none; color: #FFF; font-size: 18px;  line-height: 38px; width: 176px; height: 40px; cursor: pointer; font-family: "Microsoft Yahei"; text-shadow: 1px 1px 1px #000 !important;}
-		.editor-sub-btn1 { margin-left: 20px; background: #333; }
+		.editor-sub-btn1 { margin-right: 20px; background: #333; }
 			.editor-sub-btn1:hover { background: #3BB; color:  #FFF; -webkit-transition: all 500ms;}
 		.editor-sub-btn2 { background: #666; }
 			.editor-sub-btn2:hover { background: #3BB; color:  #FFF; -webkit-transition: all 500ms;}
-	.editor-post-opentype { margin-right: 20px; height: 40px; overflow: hidden;}
+	.editor-post-opentype { margin-left: 20px; height: 40px; overflow: hidden;}
 		.editor-post-opentype i { float: right; height: 40px; width: 40px; background: url(http://static.ueue.cc/www/img/editor.png) -4px -107px no-repeat #333; cursor: pointer;}
 			.editor-post-opentype i:hover { background-color: #555; -webkit-transition: all 500ms;}
+			.editor-post-opentype span { width: 58px;}
 		.editor-sub-btn3 { height: 38px; line-height: 38px; font-size: 14px; color: #999; text-shadow: 1px 1px 1px #FFF; padding: 0 8px 0 30px; background: url(http://static.ueue.cc/www/img/editor.png) -6px -6px no-repeat; border: 1px solid #CCC;}
 		.editor-sub-btn4 { height: 40px; line-height: 40px;  font-size: 14px; color: #FFF; padding: 0 8px 0 30px; background: url(http://static.ueue.cc/www/img/editor.png) -6px -55px no-repeat #3BB;}
 /*发布器加载选项*/
@@ -132,7 +237,7 @@ input { background: none;}
 	.one-third p a:hover { text-decoration: underline;}
 	.one-third-noroot p a { color: #CCC;}
 /*视频发布器*/
-.editor-video { width: 640px;}
+.editor-video { width: 640px; position: relative;}
 	.editor-video-input { float: left; height: 20px; outline: none; border: 1px solid #CCC; width: 578px; padding: 10px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999; line-height: 20px; margin-left: 20px;}
 	.editor-video-1{ line-height: 30px; width: 576px; margin-left: 20px;  color: #666;  margin-top: 10px;}
 .editor-video-pic { margin-left: 20px; width: 600px; height: 152px;}
@@ -144,18 +249,10 @@ input { background: none;}
 	.editor-video-pic-btn { height: 40px; width: 120px;  padding-left: 10px; padding-top: 9px;}
 		input.editor-video-pic-btn:hover { background: #3BB;}
 /*声音发布器*/
-.editor-voice { width: 640px; }
+.editor-voice { width: 640px; position: relative;}
 .editor-voice-input { position: relative; padding-bottom: 20px;}
 .editor-voice-input-1 { height: 102px;}
-.editor-voice-input input { float: left; height: 20px; outline: none; border: 1px solid #CCC; width: 578px; padding: 10px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999; line-height: 20px; margin-left: 20px; margin-top: 20px;}
-	/*.editor-voice-pic-text { width: 350px; overflow: hidden; height: 120px;}
-		.editor-voice-pic-text p { width: 340px; line-height: 24px; margin-left: 10px; font-size: 14px; font-weight: bold; color: #666;}
-	input.editor-voice-pic-btn { height: 40px; width: 120px; font-size: 14px; outline: none; background: #666; border: none; color: #FFF; font-family: "Microsoft Yahei"; cursor: pointer; margin-left: 10px;}
-		input.editor-voice-pic-btn:hover { background: #3BB;}
-		.editor-voice-pic-img { border: 1px solid #CCC; width: 230px; height: 170px; padding: 5px; background: #FFF;}
-		.editor-voice-pic-img div { height: 170px; width: 230px; overflow: hidden; background: url(../img/music.png) 0 0 no-repeat;}
-		.editor-voice-pic-img div p{ display: block; width: 150px; font-size: 14px; margin: 73px 20px 0 60px; line-height: 30px; text-align: left; height: 60px; color: #FFF; overflow: hidden;}*/
-
+.editor-voice-input input { float: left; height: 20px; outline: none; border: 1px solid #CCC; width: 578px; padding: 10px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999; line-height: 20px; margin-left: 20px;}
 .editor-title-event {}
 	.editor-title-event input { float: right;	height: 20px; outline: none; border: 1px solid #CCC; width: 490px; padding: 10px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999; line-height: 20px;}
 	.editor-title-event input:focus { border: 1px solid #3BB; -webkit-transition: all 500ms;}
@@ -176,14 +273,17 @@ input { background: none;}
 .editor-event-imgname { width: 530px; height: 20px; line-height: 20px;  overflow: hidden; color: #666;}
 	.editor-event-imgname a { text-decoration: underline; cursor: pointer;}
 .editor-event-rate { width: 50px; height: 20px; line-height: 20px; text-align: center;}
-.editor-event-time { width: 316px;}
-	.editor-event-time div { font-size: 14px; color: #999; line-height: 30px;}
+.editor-event-time {  padding-left: 20px; position: relative;}
+	.editor-event-time div.eve-time-1 { font-size: 14px; color: #999; line-height: 30px;}
 	.eve-link-ico,.eve-time-ico,.eve-add-ico,.eve-email-ico { height: 30px; width: 30px;}
 		.eve-time-ico { background: url(http://static.ueue.cc/www/img/editor.png) -16px -722px no-repeat;}
 		.eve-link-ico { background: url(http://static.ueue.cc/www/img/editor.png) -103px -1019px no-repeat;}
 		.eve-email-ico { background: url(http://static.ueue.cc/www/img/editor.png) -103px -974px no-repeat;}
-	.eve-time-1 { height: 20px; padding: 4px 8px; border: 1px solid #CCC; outline: none; width: 34px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999;}
-	.eve-time-2 { height: 20px; padding: 4px 8px; border: 1px solid #CCC; outline: none; width: 18px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999;}
+	.eve-time-1 { width: 78px; height: 32px; padding: 4px 8px; border: 1px solid #CCC; outline: none; font-size: 14px; font-family: "Microsoft Yahei"; color: #999; position: relative;}
+		.eidtor-calendar { display: none; z-index: 99999;}
+	.eve-time-1:hover .eidtor-calendar { display: block; }
+	.eve-time-1:hover>p { color: #3bb; cursor: pointer;}
+
 	
 	.eve-email { height: 20px; padding: 4px 8px; margin-top: 10px; border: 1px solid #CCC; outline: none; width: 300px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999;}
 .eve-time-title { line-height: 30px; width: 40px; text-align: left; margin-right: 15px; font-size: 14px; color: #999;}
@@ -205,5 +305,29 @@ input { background: none;}
 	Last Modify:	Alex
 */	
 	
-	.user-ftbg { min-width: 1242px; height: 50px; background: url(http://static.ueue.cc/www/img/bgt.jpg) repeat; overflow: hidden; position: relative; margin-top: 20px;}
+	.user-ftbg { min-width: 1242px; height: 50px; background: url(http://static.ueue.cc/www/img/bgt.jpg) repeat; overflow: hidden; position: relative; margin-top: 20px; z-index: 9999;}
 		.user-ftbg p { line-height: 50px; color: #FFF; text-align: center;}
+		
+/*
+	Level:			Function
+	Explain:		日历样式
+	Last Modify:	Alex
+*/			
+.eidtor-calendar Input {background-color: #333;height: 20px;border: none;color:#fff; line-height: 20px;}
+
+.Calendar {width: 250px;background-color: #f1f1f1;border:0px dotted #1C6FA5; position: absolute; top: 41px; left: -1px; z-index: 9999;}
+.CalendarTD {color: #000000;background-color:#f6f6f6;height: 30px;width:11%;text-align: center;}
+
+.Title {height: 24px;text-align: center;color: #fff;text-decoration: none;background-color: #333;border:1px solid #333;}
+
+.Day {color:#3bb; background: #fff; height: 20px;width:11%;text-align: center;}
+.DaySat {color:#3bb; background: #fff; text-align: center;height: 30px;width: 12%;}
+.DaySun {color: #3bb; background: #fff; text-align: center;height: 30px;width: 12%;}
+.DayNow { color: #fff;background-color: #3bb;height: 30px;text-align: center;}
+.Day:hover,.DaySat:hover,.DaySun:hover { background: #333; color: #fff; cursor: pointer;}
+
+.DayTitle {color: #fff;background-color: #3bb;height: 20px;width:11%;text-align: center;}
+.DaySatTitle {color:#fff;background-color:#3bb;text-align: center;height: 20px;width: 12%;}
+.DaySunTitle {color: #fff;background-color: #3bb;text-align: center;height: 20px;width: 12%;}
+
+.DayButton { font-size: 18px; bold;color: #fff; padding: 0 20px; cursor:hand;text-decoration: none;}
