@@ -97,11 +97,9 @@
 		.editor-title-tag { position: absolute; top: 0; left: -100px; display: block; width: 80px; height: 42px; padding: 0 10px; font-size: 18px; line-height: 42px; background: #3bb; color: #fff; text-align: right;}
 		
 		
-.editor-logo { height: 89px; width: 150px; background: url(http://static.ueue.cc/www/img/fabulogo.png) no-repeat; margin-top: 30px;}
-.yz-editorbody { background: url(http://static.ueue.cc/www/img/background1.png) repeat; height: auto; min-width: 1242px;}
-	.yz-editorbody>div>div.w640 { border-left: 1px solid #CCC; border-right: 1px solid #CCC;}
-input { background: none;}
 
+.yz-editorbody { background: url(http://static.ueue.cc/www/img/background2.png) repeat; height: auto; min-width: 1242px;}
+input { background: none;}
 .ue-editor-btn { margin-left: 50px; margin-top: 40px; height: 90px; line-height: 40px;}
 	.ue-editor-btn a { border: 1px solid #CCC; padding: 5px 10px;  color: #333;}
 		.ue-editor-btn a:hover,.ue-editor-btn a.active { background: #3BB; color: #FFF; -webkit-transition: all 500ms;}
@@ -219,9 +217,9 @@ input { background: none;}
 	.editor-post-opentype { margin-left: 20px; height: 40px; overflow: hidden;}
 		.editor-post-opentype i { float: right; height: 40px; width: 40px; background: url(http://static.ueue.cc/www/img/editor.png) -4px -107px no-repeat #333; cursor: pointer;}
 			.editor-post-opentype i:hover { background-color: #555; -webkit-transition: all 500ms;}
-			.editor-post-opentype span { width: 58px;}
-		.editor-sub-btn3 { height: 38px; line-height: 38px; font-size: 14px; color: #999; text-shadow: 1px 1px 1px #FFF; padding: 0 8px 0 30px; background: url(http://static.ueue.cc/www/img/editor.png) -6px -6px no-repeat; border: 1px solid #CCC;}
-		.editor-sub-btn4 { height: 40px; line-height: 40px;  font-size: 14px; color: #FFF; padding: 0 8px 0 30px; background: url(http://static.ueue.cc/www/img/editor.png) -6px -55px no-repeat #3BB;}
+			.editor-post-opentype span {}
+		.editor-sub-btn3 { height: 38px; line-height: 38px; font-size: 14px; color: #999; text-shadow: 1px 1px 1px #FFF; padding: 0 8px 0 30px; background: url(http://static.ueue.cc/www/img/editor.png) -6px -6px no-repeat; border: 1px solid #CCC; width: 56px;}
+		.editor-sub-btn4 { height: 40px; line-height: 40px;  font-size: 14px; color: #FFF; padding: 0 8px 0 30px; background: url(http://static.ueue.cc/www/img/editor.png) -6px -55px no-repeat #3BB; width: 58px;}
 /*发布器加载选项*/
 #editor-choose { width: 100%; height: auto;}
 	.ue-ed-tt{ width: 1000px; border-bottom: 1px solid #CCC; border-top: 1px solid #CCC; padding: 20px 0; margin-top: 40px;}
