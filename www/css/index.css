@@ -213,8 +213,8 @@
 		.ue-search-user-left { width: 212px; height: 32px; background: #333; position: relative;}
 		.ue-search-user-left p { color: #FFF; line-height: 32px; padding-left: 10px; cursor: pointer;}
 		.ue-search-user-left p span { padding: 0 7px;}
-			.ue-search-user-nav { width: 212px; height: 288px; background: #3BB; position: absolute; left: 0; top: 32px; display: none;}
-			.ue-search-user-nav a { float: left; line-height: 32px; width: 53px; color: #FFF; text-align: center;}
+			.ue-search-user-nav { width: 212px; height: 234px; background: #3BB; position: absolute; left: 0; top: 32px; display: none;}
+			.ue-search-user-nav a { float: left; line-height: 26px; width: 53px; color: #FFF; text-align: center;}
 				.ue-search-user-nav a:hover { cursor: pointer; background: #333; -webkit-transition: all 500ms;}
 		div.ue-search-user-left:hover .ue-search-user-nav{ display: block;}
 		.ue-user-list { width: 640px;}
