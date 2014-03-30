@@ -153,12 +153,27 @@ input { background: none;}
 	.editor-desc-title { height: 50px; width: 620px; }
 	.editor-desc-title-p { line-height: 50px; padding-left: 20px; color: #999; font-size: 24px;} 
 		.editor-desc-title-p span { font-size: 14px !important; font-weight: normal !important;}
-	.editor-zhaopin-name { line-height: 30px; height: 30px; border: 1px solid #CCC; outline: none; width: 200px; padding: 0 10px; color: #3BB; font-size: 14px; margin-top: 9px; margin-left: 10px;}
+	/*.editor-zhaopin-name { line-height: 30px; height: 30px; border: 1px solid #CCC; outline: none; width: 200px; padding: 0 10px; color: #3BB; font-size: 14px; margin-top: 9px; margin-left: 10px;}
 	
 	.editor-zhaopin-more { width: 600px; margin-left: 20px; background: #333; text-align: center; height: 50px; line-height: 50px; position: relative; font-size: 14px; cursor: pointer; color: #FFF;}
 	.editor-zhaopin-more:hover { background: #3BB; -webkit-transition: all 500ms;}
 	.editor-zhaopin-del { margin-top: 7px; width: 35px; height: 35px; cursor: pointer; background: url(http://static.ueue.cc/www/img/editor.png) -11px -971px no-repeat;}
-		a.editor-zhaopin-del:hover { background: url(http://static.ueue.cc/www/img/editor.png) -51px -971px no-repeat;}
+		a.editor-zhaopin-del:hover { background: url(http://static.ueue.cc/www/img/editor.png) -51px -971px no-repeat;}*/
+.editor-zhaomu { height: 42px; width: 598px; background: #333;}
+	.editor-zhaomu-name { width: 298px; height: 42px;}
+	.editor-zhaomu-name>p>span { color: #fff; background: #3bb; float: left; width: 80px; padding: 0 10px; height: 42px; line-height: 42px;}
+	.editor-zhaomu-name>p>input { height: 22px; outline: none; border: none; width: 176px; padding: 5px; margin: 5px; font-size: 14px; font-family: "Microsoft Yahei"; color: #fff; line-height: 22px; background: none;}
+	.editor-zhaomu-name>p>input:focus { background: #fff; color: #333; -webkit-transition: all 500ms;}
+	
+	.editor-zhaomu-choose { width:150px; height: 42px; color: #3bb; float: left; line-height: 42px; position: relative; cursor: pointer;}
+		.editor-zhaomu-choose>p>span { float: left; width: 90px; padding: 0 10px; color: #fff;}
+		.editor-zhaomu-choose>p>a { float: right; width: 40px; text-align: center; height: 42px; color: #fff; background: #3bb;}
+		.editor-zhaomu-choose ul { position: absolute ; top: 42px; left: 0; display: none;}
+		.editor-zhaomu-choose ul li { line-height: 26px; background: #f1f1f1; color: #333; padding: 0 10px; width: 130px;}
+		.editor-zhaomu-choose ul li:hover { background: #3bb; color: #fff; -webkit-transition: all 500ms; cursor: pointer;}
+		.editor-zhaomu-choose:hover ul { display: block;}
+		
+		
 	
 	
 	.editor-desc-textarea { border: 1px solid #CCC; width: 598px; margin-left: 20px;}
