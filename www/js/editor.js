@@ -44,14 +44,14 @@ $(document).ready(function(){
 		else lable="";
             }
          }
-     })
+    });
 
 
     //sign-markup
 
     $(".editor-cc a").click(function(){
-	select_item_on($(".editor-cc a"),$(this).index(),"editor-cc-on");
-    })
+	$(".editor-cc p").text($(this).text());
+    });
 
 
     //add teammates
