@@ -118,8 +118,9 @@ input { background: none;}
 .editor-bk { width: 90px; height: 90px; margin-top: 30px;}
 .editor-back { display: block; width: 90px; height: 90px; background: url(http://static.ueue.cc/www/img/editor.png) -97px -482px;  cursor: pointer; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
 	a.editor-back:hover { background: url(http://static.ueue.cc/www/img/editor.png) -97px -863px;}
-.editor-title { padding: 0 20px; position: relative;}
-.editor-title input { height: 20px; outline: none; border: 1px solid #CCC; width: 578px; padding: 10px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999; line-height: 20px; background: none; }
+.editor-title,.editor-url { padding: 0 20px; position: relative;}
+.editor-title input,.editor-url input { height: 20px; outline: none; border: 1px solid #CCC; width: 578px; padding: 10px; font-size: 14px; font-family: "Microsoft Yahei"; color: #999; line-height: 20px; background: none; }
+	.editor-url { padding-bottom: 20px;}
 	.editor-title input:focus { border: 1px solid #3BB; -webkit-transition: all 500ms;}
 .editor-pic { position: relative;}
 	.editor-pic ul {}
