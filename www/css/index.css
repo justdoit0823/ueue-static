@@ -32,7 +32,7 @@
 	Explain:		搜索条
 	Last Modify:	Alex
 */
-
+	.ue-index-search { width: 1202px; height: 415px; overflow: hidden;}
 	.yz-search { width: 336px;}
 		.yz-search div { margin-top: 13px; }
 		.yz-search-type  { height: 30px; width: 50px; border: 1px solid #CCC; outline: none; position: relative; overflow: hidden; background: #FFF url(http://static.ueue.cc/www/img/show-bodyico.png) 28px -1370px no-repeat;}
