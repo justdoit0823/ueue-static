@@ -268,7 +268,7 @@
 
 /*选择行业标签通用样式*/
 .ue-stag { height: 100%; width: 100%; position: fixed; top: 0; left: 0; background: url(../../static/img/pngbg80.png) repeat; z-index: 10000;}
-.ue-stag-box { width: 780px; height: 360px; padding: 10px 0; position: absolute; top: 50%; left: 50%; margin-left: -390px; margin-top: -180px; z-index: 10001; border-top: 2px solid #FFF; border-bottom: 2px solid #FFF;}
+.ue-stag-box { width: 800px; height: 360px; padding: 10px 0; position: absolute; top: 50%; left: 50%; margin-left: -400px; margin-top: -180px; z-index: 10001; border-top: 2px solid #FFF; border-bottom: 2px solid #FFF;}
 .ue-stag-close {display: block; width: 70px; height: 70px; position: fixed; top: 0px; right: 0px; background: url(../../static/img/report.png) -197px -35px no-repeat; cursor: pointer; z-index: 1005;}
 .ue-stag-close:hover{ background: url(../../static/img/report.png) -310px -35px no-repeat;}
 .ue-stag-hot { width: 150px; height: 340px; margin-top: 10px; background: #3bb;}
@@ -276,12 +276,16 @@
 .ue-stag-hot ul li { width: 150px; height: 30px; line-height: 30px;}
 .ue-stag-hot ul li a { display: block; height: 30px; width: 110px; color: #fff; padding: 0 20px; font-size: 14px;}
 	.ue-stag-hot ul li a:hover { background: #333; -webkit-transition: all 500ms;}
-.ue-stag-box>div.z { width: 780px; height: 340px; position: relative;}
+.ue-stag-box>div.z { width: 800px; height: 340px; position: relative;}
 .ue-stag-maintitle {  line-height: 40px; height: 40px; color: #FFF; font-size: 18px; position: absolute; left: 0; top: -60px; width: 600}
-.ue-stag-title { font-size: 13px !important; color: #333; width: 150px; text-align: center; line-height: 25px; background: #fff;}
-.ue-stag-normal { width: 600px; height: 340px; margin-top: 10px;}
-	.ue-stag-normal>div.z { width: 280px; padding-left: 20px;}
-	.ue-stag-normal>div.z>div.z { padding-bottom: 20px;}
-		.ue-stag-normal span { background: #3bb; float: left; padding: 0 5px; margin-bottom: 5px; margin-right: 5px; color: #fff; line-height: 25px; font-size: 14px;}
-		.ue-stag-normal a {  float: left; padding: 0 5px; margin-bottom: 5px; margin-right: 5px; color: #fff; line-height: 25px; font-size: 14px;}
-			.ue-stag-normal a:hover { background: #fff; color: #333; -webkit-transition: all 500ms;}
+.ue-stag-title { font-size: 13px !important; color: #333; width: 150px; text-align: center; line-height: 30px; background: #fff;}
+.ue-stag-normal { width: 649px; height: 340px; margin-top: 10px;}
+	.ue-stag-normal>div.z { height: 340px; line-height: 30px; font-size: 12px; width: 80px; margin-left: 1px;}
+	.ue-stag-normal>div.z:hover { background: #3bb; -webkit-transition: all 500ms;}
+	.ue-stag-normal>div.z:hover span { background: #fff; color: #333; -webkit-transition: all 500ms;}
+	.ue-design { width: 160px !important; height: 340px;}
+		.ue-design>div>span { float: left; padding: 0 5px; width: 150px; color: #fff; background: #b1b1b1; text-align:center;}
+		.ue-design>div>a { float: left; padding-left: 5px; width: 75px; color: #fff;}
+		.ue-stag-normal>div.z>span { float: left; padding: 0 5px; width: 70px; color: #fff; background: #b1b1b1;  text-align:center;}
+		.ue-stag-normal>div.z>a {  float: left; padding-left: 5px; width: 75px; color: #fff; line-height: 30px; }
+			.ue-design>div>a:hover,.ue-stag-normal>div.z>a:hover { background: #fff; color: #333; -webkit-transition: all 500ms;}
