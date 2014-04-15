@@ -32,17 +32,9 @@
 	Explain:		搜索条
 	Last Modify:	Alex
 */
-	.ue-index-search { width: 1202px; height: 415px; overflow: hidden;}
-	.yz-search { width: 336px;}
-		.yz-search div { margin-top: 13px; }
-		.yz-search-type  { height: 30px; width: 50px; border: 1px solid #CCC; outline: none; position: relative; overflow: hidden; background: #FFF url(http://static.ueue.cc/www/img/show-bodyico.png) 28px -1370px no-repeat;}
-		.yz-search-type li { position: absolute; display: block; height: 30px; width: 50px; left: 0;}
-		.yz-search-type li a { display: block; height: 30px; width: 50px; float: left; cursor: pointer; }
-			.yz-search-type-wk { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -34px -1535px no-repeat;}
-			.yz-search-type-rcd { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -124px -1533px no-repeat;}
-			.yz-search-type-usr { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -78px -1534px no-repeat;}
-		.yz-search-text { width: 243px; height: 20px; line-height: 20px; font-size: 14px; padding: 4px 5px 6px; border-top: 1px solid #CCC; border-left: none; border-bottom: 1px solid #CCC; border-right: none; outline: none; background: #FFF; font-family: "Microsoft YaHei"; color: #999; }
-		.yz-search-sub { height: 32px; width: 30px; outline: 0 none;  background-color: buttonface; border: 0px outset buttonface; cursor: pointer; background: #FFF url(http://static.ueue.cc/www/img/show-bodyico.png) -47px -1373px no-repeat; }
+	.yz-idx-body-title { position: relative;}
+			.search-tag { display: block; height: 50px; width: 35px; background: url(../../static/img/show-bodyico.png) -29px -530px no-repeat; position: absolute; top: 0; right: 15px;  -webkit-transition: all 500ms;}
+			.search-tag:hover { cursor: pointer; background: url(../../static/img/show-bodyico.png) -29px -525px no-repeat;}
 /*
 	Level:			Channal
 	Explain:		内容页右侧边Project By & Post By
@@ -540,30 +532,5 @@
 	.ue-hp-info span { line-height: 25px; padding: 4px 10px; background: #3BB; color: #FFF; text-shadow: none; margin-right: 10px;}
 /* ---------end------------------------ */
 
-/*发布器加载选项*/
-.ue-hdbg-editor { background: #FFF; overflow: hidden;}
-.ue-hdline {display: none !important;}
-.editor-logo { height: 89px; width: 150px; background: url(http://static.ueue.cc/www/img/fabulogo.png) no-repeat; margin-top: 25px;}
-.yz-editorbody { background: url(http://static.ueue.cc/www/img/background1.png) repeat; height: auto; min-width: 1242px;}
-	.yz-editorbody>div>div.w640 { border-left: 1px solid #CCC; border-right: 1px solid #CCC;}
-input { background: none;}
 
-.ue-editor-btn { margin-left: 50px; margin-top: 35px; height: 90px; line-height: 40px;}
-	.ue-editor-btn a { border: 1px solid #CCC; padding: 5px 10px;  color: #333;}
-		.ue-editor-btn a:hover,.ue-editor-btn a.active { background: #3BB; color: #FFF; -webkit-transition: all 500ms;}
-.editor-btn { margin-left: 50px; margin-top: 25px;}
-	.editor-btn a { width: 90px; height: 90px; overflow: hidden; margin-right: 45px;}
-		.editor-btn1 { background: url(http://static.ueue.cc/www/img/editor.png) 0 -96px no-repeat;}
-			a.editor-btn1:hover,.editor-btn1on { background: url(http://static.ueue.cc/www/img/editor.png) -97px -96px no-repeat;}
-		.editor-btn2 { background: url(http://static.ueue.cc/www/img/editor.png) 0 0 no-repeat;}
-			a.editor-btn2:hover,.editor-btn2on { background: url(http://static.ueue.cc/www/img/editor.png) -97px 0 no-repeat;}
-		.editor-btn3 { background: url(http://static.ueue.cc/www/img/editor.png) 0 -191px no-repeat;}
-			a.editor-btn3:hover,.editor-btn3on { background: url(http://static.ueue.cc/www/img/editor.png) -97px -191px no-repeat;}
-		.editor-btn4 { background: url(http://static.ueue.cc/www/img/editor.png) 0 -286px no-repeat;}
-			a.editor-btn4:hover,.editor-btn4on { background: url(http://static.ueue.cc/www/img/editor.png) -97px -286px no-repeat;}
-		.editor-btn5 { background: url(http://static.ueue.cc/www/img/editor.png) 0 -381px no-repeat;}
-			a.editor-btn5:hover,.editor-btn5on { background: url(http://static.ueue.cc/www/img/editor.png) -97px -381px no-repeat;}
-.editor-bk { width: 90px; height: 90px; margin-top: 25px;}
-.editor-back { display: block; width: 90px; height: 90px; background: url(http://static.ueue.cc/www/img/icon-hd.png) -327px -105px no-repeat;  cursor: pointer; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
-	a.editor-back:hover { background: url(http://static.ueue.cc/www/img/icon-hd.png) -423px -105px no-repeat;}
 
