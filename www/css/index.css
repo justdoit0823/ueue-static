@@ -33,8 +33,8 @@
 	Last Modify:	Alex
 */
 	.yz-idx-body-title { position: relative;}
-			.search-tag { display: block; height: 50px; width: 35px; background: url(../../static/img/show-bodyico.png) -29px -530px no-repeat; position: absolute; top: 0; right: 15px;  -webkit-transition: all 500ms;}
-			.search-tag:hover { cursor: pointer; background: url(../../static/img/show-bodyico.png) -29px -525px no-repeat;}
+			.search-tag { display: block; height: 50px; width: 35px; background: url(http://static.ueue.cc/www/img/show-bodyico.png) -29px -530px no-repeat; position: absolute; top: 0; right: 15px;  -webkit-transition: all 500ms;}
+			.search-tag:hover { cursor: pointer; background: url(http://static.ueue.cc/www/img/show-bodyico.png) -29px -525px no-repeat;}
 /*
 	Level:			Channal
 	Explain:		内容页右侧边Project By & Post By
