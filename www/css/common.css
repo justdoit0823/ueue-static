@@ -252,3 +252,16 @@
 	.login-bt:hover { background: #3BB;}
 	.login-forget-psw { display: block; line-height: 20px; height: 20px; position: absolute; right: 20px; bottom: 10px; color: #666; -webkit-transition: all 400ms;}
 	a.login-forget-psw:hover {  color: #F30;}
+	
+/*发布框选择器弹出样式*/
+.ue-post { height: 100%; width: 100%; position: fixed; top: 0; left: 0; background: url(../../static/img/pngbg80.png) repeat; z-index: 1000;}
+.ue-post-box { width: 600px; height: 280px; padding: 10px 0; position: absolute; top: 50%; left: 50%; margin-left: -300px; margin-top: -150px; z-index: 1001; border-top: 2px solid #FFF; border-bottom: 2px solid #FFF;}
+.ue-post-close {display: block; width: 70px; height: 70px; position: fixed; top: 0px; right: 0px; background: url(../../static/img/report.png) -197px -35px no-repeat; cursor: pointer; z-index: 1005;}
+.ue-post-close:hover{ background: url(../../static/img/report.png) -310px -35px no-repeat;}
+.ue-post-box div.z { width: 600px; height: 280px; position: relative;}
+.ue-post-maintitle {  line-height: 40px; height: 40px; color: #FFF; font-size: 18px; position: absolute; left: 0; top: -60px; width: 600}
+.ue-post-box ul { width: 560px; padding: 10px 20px;}
+	.ue-post-box ul li { float: left; padding: 10px 20px; width: 100px;}
+.ue-post-title { font-size: 14px !important; line-height: 40px; color: #FFF; top: 0 !important;}
+.ue-post-box ul li a { display: block; line-height: 30px; text-align: center; height: 30px; width: 98px; background: none;  cursor: pointer; outline: none; border: 1px solid #FFF; color: #FFF;  -webkit-box-shadow: 0px 0px 1px #CCC; -moz-box-shadow: 0px 0px 1px #CCC; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;}
+.ue-post-box ul li a:hover { background: #FFF; color: #333; -webkit-transition: all 500ms;}
