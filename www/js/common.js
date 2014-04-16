@@ -111,13 +111,9 @@ function select_item_on(jqobj,index,classname){
 
 $(document).ready(function(){
     $(".yz-meb-btn1").click(function(){
-	if($(".ue-hdbg-editor").css("height") == "142px"){
-	    $(".ue-hdbg-editor").css({"border-bottom":"none"});
-	    $(".ue-hdbg-editor").animate({"height":"0"},200);
-	}
-	else{
-	    $(".ue-hdbg-editor").css({"border-bottom":"1px solid #CCC"});
-	    $(".ue-hdbg-editor").animate({"height":"142"},200);
-	}
-    })
-})
+	$(".ue-stag").show();
+    });
+    $(".ue-stag-close").click(function(){
+	$(".ue-stag").hide();
+    });
+});
