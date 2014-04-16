@@ -254,10 +254,10 @@
 	a.login-forget-psw:hover {  color: #F30;}
 	
 /*发布框选择器弹出样式*/
-.ue-post { height: 100%; width: 100%; position: fixed; top: 0; left: 0; background: url(../../static/img/pngbg80.png) repeat; z-index: 1000;}
+.ue-post { height: 100%; width: 100%; position: fixed; top: 0; left: 0; background: url(http://static.ueue.cc/www/img/pngbg80.png) repeat; z-index: 1000;}
 .ue-post-box { width: 600px; height: 280px; padding: 10px 0; position: absolute; top: 50%; left: 50%; margin-left: -300px; margin-top: -150px; z-index: 1001; border-top: 2px solid #FFF; border-bottom: 2px solid #FFF;}
-.ue-post-close {display: block; width: 70px; height: 70px; position: fixed; top: 0px; right: 0px; background: url(../../static/img/report.png) -197px -35px no-repeat; cursor: pointer; z-index: 1005;}
-.ue-post-close:hover{ background: url(../../static/img/report.png) -310px -35px no-repeat;}
+.ue-post-close {display: block; width: 70px; height: 70px; position: fixed; top: 0px; right: 0px; background: url(http://static.ueue.cc/www/img/report.png) -197px -35px no-repeat; cursor: pointer; z-index: 1005;}
+.ue-post-close:hover{ background: url(http://static.ueue.cc/www/img/report.png) -310px -35px no-repeat;}
 .ue-post-box div.z { width: 600px; height: 280px; position: relative;}
 .ue-post-maintitle {  line-height: 40px; height: 40px; color: #FFF; font-size: 18px; position: absolute; left: 0; top: -60px; width: 600}
 .ue-post-box ul { width: 560px; padding: 10px 20px;}
@@ -267,10 +267,10 @@
 .ue-post-box ul li a:hover { background: #FFF; color: #333; -webkit-transition: all 500ms;}
 
 /*选择行业标签通用样式*/
-.ue-stag { height: 100%; width: 100%; position: fixed; top: 0; left: 0; background: url(../../static/img/pngbg80.png) repeat; z-index: 10000;}
+.ue-stag { height: 100%; width: 100%; position: fixed; top: 0; left: 0; background: url(http://static.ueue.cc/www/img/pngbg80.png) repeat; z-index: 10000;}
 .ue-stag-box { width: 800px; height: 360px; padding: 10px 0; position: absolute; top: 50%; left: 50%; margin-left: -400px; margin-top: -180px; z-index: 10001; border-top: 2px solid #FFF; border-bottom: 2px solid #FFF;}
-.ue-stag-close {display: block; width: 70px; height: 70px; position: fixed; top: 0px; right: 0px; background: url(../../static/img/report.png) -197px -35px no-repeat; cursor: pointer; z-index: 1005;}
-.ue-stag-close:hover{ background: url(../../static/img/report.png) -310px -35px no-repeat;}
+.ue-stag-close {display: block; width: 70px; height: 70px; position: fixed; top: 0px; right: 0px; background: url(http://static.ueue.cc/www/img/report.png) -197px -35px no-repeat; cursor: pointer; z-index: 1005;}
+.ue-stag-close:hover{ background: url(http://static.ueue.cc/www/img/report.png) -310px -35px no-repeat;}
 .ue-stag-hot { width: 150px; height: 340px; margin-top: 10px; background: #3bb;}
 .ue-stag-hot ul { }
 .ue-stag-hot ul li { width: 150px; height: 30px; line-height: 30px;}
