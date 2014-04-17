@@ -150,6 +150,13 @@
 		.user-area1 a:hover { background: #3BB; color: #FFF;}
 .user-career { width: 91px; height: 28px; padding-right: 20px; line-height: 28px; border: 1px solid #3BB; text-align: center; font-size: 14px;  background: url(http://static.ueue.cc/www/img/user.png) -272px -115px #FFF no-repeat; color: #999; margin-right: 15px; cursor: pointer;}
 .user-career-active { color: #3BB !important;}
+.ue-user-career i { float: left; width: 28px; height: 28px; border: 1px solid #ccc; background: url(http://static.ueue.cc/www/img/user.png) -355px -154px #ccc;}
+					.ue-user-career i:hover { background: url(http://static.ueue.cc/www/img/user.png) -355px -154px #3bb; cursor: pointer; -webkit-transition: all 500ms;}
+					.ue-uesr-tags { height: 28px; border: 1px solid #ccc; margin-bottom: 10px; margin-right: 10px;}
+					.ue-uesr-tags>p { padding: 0 10px; font-size: 14px; color: #999; line-height: 28px; float: left; background: #fff;}
+					.ue-uesr-tags>span { float: left; height: 28px; width: 29px; cursor: pointer; background: url(http://static.ueue.cc/www/img/user.png) -354px -114px #ccc;}
+					.ue-uesr-tags:hover p { color: #333; -webkit-transition: all 500ms;}
+					.ue-uesr-tags:hover span:hover { background-color: #3bb; -webkit-transition: all 500ms;}
 	.user-area3 { width: 510px; border: 1px solid #CCC; background: #FFF; margin-top: 20px; padding-bottom: 8px;}
 		.user-focuslist { width: 510px; height: auto; margin-top: 5px;}
 			.user-focuslist a { float: left; width: 76px; height: 106px; margin-left: 8px; margin-top: 8px;  color: #666;}
@@ -260,3 +267,27 @@ font-size: 20px; color: #999;}
 
 .user-normal-div {height:30px;font-size:14px;color:#999;width:310px;position:relative;}
 .user-normal-div span {padding:0 4px;display:block;top:0;left:0;line-height:30px;width:302px;position:absolute;}
+
+/*选择行业标签通用样式*/
+.ue-stag { height: 100%; width: 100%; position: fixed; top: 0; left: 0; background: url(http://static.ueue.cc/www/img/pngbg80.png) repeat; z-index: 10000;}
+.ue-stag-box { width: 800px; height: 360px; padding: 10px 0; position: absolute; top: 50%; left: 50%; margin-left: -400px; margin-top: -180px; z-index: 10001; border-top: 2px solid #FFF; border-bottom: 2px solid #FFF;}
+.ue-stag-close {display: block; width: 70px; height: 70px; position: fixed; top: 0px; right: 0px; background: url(http://static.ueue.cc/www/img/report.png) -197px -35px no-repeat; cursor: pointer; z-index: 1005;}
+.ue-stag-close:hover{ background: url(http://static.ueue.cc/www/img/report.png) -310px -35px no-repeat;}
+.ue-stag-hot { width: 150px; height: 340px; margin-top: 10px; background: #fff;}
+.ue-stag-hot ul { }
+.ue-stag-hot ul li { width: 150px; height: 30px; line-height: 30px;}
+.ue-stag-hot ul li a { display: block; height: 30px; width: 110px; color: #333; padding: 0 20px; font-size: 14px;}
+	.ue-stag-hot ul li a:hover { background: #333; -webkit-transition: all 500ms; color: #fff;}
+.ue-stag-box>div.z { width: 800px; height: 340px; position: relative;}
+.ue-stag-maintitle {  line-height: 40px; height: 40px; color: #FFF; font-size: 18px; position: absolute; left: 0; top: -60px; width: 600}
+.ue-stag-title { font-size: 12px; color: #fff; width: 150px; text-align: center; line-height: 30px; background: #3bb;}
+.ue-stag-normal { width: 649px; height: 340px; margin-top: 10px;}
+	.ue-stag-normal>div.z { height: 340px; line-height: 30px; font-size: 12px; width: 80px; margin-left: 1px;}
+	.ue-stag-normal>div.z:hover { background: #3bb; -webkit-transition: all 500ms;}
+	.ue-stag-normal>div.z:hover span { background: #fff; color: #333; -webkit-transition: all 500ms;}
+	.ue-design { width: 160px !important; height: 340px;}
+		.ue-design>div>span { float: left; padding: 0 5px; width: 150px; color: #fff; background: #b1b1b1; text-align:center;}
+		.ue-design>div>a { float: left; padding-left: 5px; width: 75px; color: #fff;}
+		.ue-stag-normal>div.z>span { float: left; padding: 0 5px; width: 70px; color: #fff; background: #b1b1b1;  text-align:center;}
+		.ue-stag-normal>div.z>a {  float: left; padding-left: 5px; width: 75px; color: #fff; line-height: 30px; }
+			.ue-design>div>a:hover,.ue-stag-normal>div.z>a:hover { background: #fff; color: #333; -webkit-transition: all 500ms;}
