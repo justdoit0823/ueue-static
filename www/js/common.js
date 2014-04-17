@@ -110,10 +110,16 @@ function select_item_on(jqobj,index,classname){
 }
 
 $(document).ready(function(){
-    $(".yz-meb-btn1").click(function(){
-	$(".ue-stag").show();
+    $(".yz-meb-btn1").bind('click', function(){
+	$(".ue-post").show();
+	$(".ue-post-close").bind('click', function(){
+	    $(".ue-post").hide();
+	});
     });
-    $(".ue-stag-close").click(function(){
-	$(".ue-stag").hide();
+    $(".search-tag").bind('click', function(){
+	$(".ue-stag").show();
+	$(".ue-stag-close").bind('click', function(){
+	    $(".ue-stag").hide();
+	});
     });
 });

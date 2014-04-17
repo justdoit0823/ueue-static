@@ -96,29 +96,4 @@ $(document).ready(function() {
 
 });
 
-//editor load
-
-function loadeditor(){
-    $(".yz-meb-btn1").unbind("click");
-    $(".editor-back").unbind("click");
-    if($(".ue-hdbg-editor").css("height") == "142px"){
-	$(".ue-hdbg-editor").css({"border-bottom":"none"});
-	$(".ue-hdbg-editor").animate({"height":"0"},200,function(){$(".yz-meb-btn1").bind("click",loadeditor);});
-    }
-    else{
-	$(".ue-hdbg-editor").css({"border-bottom":"1px solid #CCC"});
-	$(".ue-hdbg-editor").animate({"height":"142"},200,function(){$(".yz-meb-btn1").bind("click",loadeditor);$(".editor-back").bind("click",loadeditor);});
-    }
-}
-
-$(document).ready(function(){
-    $(".ue-hdbg-editor").css({"height":"0"});
-    $(".ue-hdbg-editor").css({"border-bottom":"none"});
-    $(".yz-meb-btn1").bind("click",loadeditor);
-    $(".ue-people-post").click(function(){
-        $(".yz-meb-btn1").trigger("click");
-    })
-})
-
-
 
