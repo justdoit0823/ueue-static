@@ -1,21 +1,3 @@
-// works and events ajax requesturl
-
-var workrqturl="/works";
-
-var eventrqturl="/records";
-
-var requesttype=-1;
-
-
-//init texts content
-
-function inittexts(list){
-
-    texts = list;
-
-}
-
-
 $(document).ready(function(){
 
         var pagelen=5;

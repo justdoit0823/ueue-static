@@ -62,10 +62,6 @@ $(document).ready(function(){
     $(".yz-search-type li").first().bind("click",search_type_scroll);
     $(".yz-search-sub").bind("click",search_type_go);
     $(".yz-search-text").bind("keydown",enter_key_go);
-    $(".yz-meb-btn1").click(function(){//fadein post page
-        $("#editor-choose").fadeIn(200);
-	$("#editor-choose").nextAll().fadeOut(200);
-    })
     $("img").error(function(){
 	//$(this).attr("src","/static/img/hdbg.jpg");
     })
