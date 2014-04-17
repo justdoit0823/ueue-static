@@ -183,7 +183,7 @@
 		.yz-avt { display: block; margin-top: 20px; width: 46px; height: 46px; background-color: #FFF; padding: 2px;}
 		.yz-meb-btn { width: 200px; height: 35px;  margin-top: 28px; }
 			.yz-meb-btn a { display: block; width: 35px; height: 35px; margin-left: 15px; float: left; }
-			a.yz-meb-btn1 { background: url(http://static.ueue.cc/www/img/icon-hd.png) -23px -20px no-repeat;}
+			a.yz-meb-btn1 { background: url(http://static.ueue.cc/www/img/icon-hd.png) -23px -20px no-repeat; cursor: pointer;}
 				a.yz-meb-btn1:hover { background: url(http://static.ueue.cc/www/img/icon-hd.png) -23px -60px no-repeat; }
 			a.yz-meb-btn2 { background: url(http://static.ueue.cc/www/img/icon-hd.png) -68px -20px no-repeat;}
 				a.yz-meb-btn2:hover { background: url(http://static.ueue.cc/www/img/icon-hd.png) -68px -60px no-repeat;}
