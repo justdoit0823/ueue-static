@@ -143,23 +143,21 @@
 	Last Modify:	Alex
 */
 .yz-idx-shengming { line-height: 50px; text-align: center; font-size: 14px; color: #666;}
-	.yz-ftbg { position: relative; height: 300px; min-width: 1242px;  z-index: 999;  overflow: hidden; border-top: 1px solid #BBB; background: #333;}
-	.yz-ftline { position: absolute; height: 40px; bottom: -2px; left: 0px;  background: #333; border: 1px solid #000; }
+	.yz-ftbg { position: relative; height: 300px; min-width: 1242px;  z-index: 999;  overflow: hidden; border-top: 1px solid #BBB; background: url(http://static.ueue.cc/www/img/bgt.png) repeat;}
+	.yz-ftline { position: absolute; height: 40px; bottom: -2px; left: 0px;  background: url(http://static.ueue.cc/www/img/bgt.png) repeat; border: 1px solid #000; }
 		.yz-ftline>div { width: 100%; height: 39px; border-top: 1px solid #666;}
-		.yz-ftline span,.yz-ftline a { line-height: 39px; margin-right: 10px; color: #666;}
+		.yz-ftline span,.yz-ftline a { line-height: 39px; margin-right: 10px; color: #d1d1d1;}
 		.yz-ftline a:hover { color: #FFF;}
 	.yz-ft { height: 262px; position: relative; overflow: hidden;}
 		.yz-ft-1 { width: 230px;}
 		.yz-ft-tt { font-size: 16px; line-height: 50px; height: 50px; padding-left: 50px; width: 190px; margin-top: 20px; color: #FFF; text-shadow: 1px 1px 1px #000;}
 			.yz-ft-1 li { margin-left: 50px; width: 170px; height: 30px; line-height: 30px; float: left; border-bottom: 1px dotted #666;}
-				.yz-ft-1 li a { color: #999; text-shadow: 1px 1px 0px #000;}
+				.yz-ft-1 li a { color: #3bb; text-shadow: 1px 1px 0px #000;}
 					.yz-ft-1 li a:hover { color: #FFF;}
 		.yz-ft-type-1 { background: url(http://static.ueue.cc/www/img/index.png) -436px -327px no-repeat;}
 		.yz-ft-type-2 { background: url(http://static.ueue.cc/www/img/index.png) -436px -388px no-repeat;}
 		.yz-ft-type-3 { background: url(http://static.ueue.cc/www/img/index.png) -436px -448px no-repeat;}
 		.yz-ft-type-4 { background: url(http://static.ueue.cc/www/img/index.png) -436px -509px no-repeat;}
-	#html5 { padding: 5px 13px; height: 28px;width: 26px; background: url(http://static.ueue.cc/www/img/html5.png) no-repeat;}
-	#w3c { padding: 5px 21px; height: 28px; width: 42px; background: url(http://static.ueue.cc/www/img/w3c.png) no-repeat;}
 
 /*
 	Level:			Global
