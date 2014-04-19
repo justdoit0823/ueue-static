@@ -96,7 +96,7 @@
 	Explain:		没有评论样式模块
 	Last Modify:	Alex
 */
-.yz-idx-module-discus-none { display: block; width: 600px; margin-left: 20px; line-height: 30px; text-align: center; font-size: 14px; color: #999;  border-top: 1px solid #CCC; padding-bottom: 5px;}
+.yz-idx-module-discus-none { display: block; width: 600px; margin-left: 20px; line-height: 30px; text-align: center; font-size: 14px; color: #999; }
 .yz-idx-module-discus-none p { display: block; width: 600px;}
 
 /*
@@ -140,7 +140,7 @@
 	Explain:		内容页评论模块
 	Last Modify:	Alex
 */
-	.yz-idx-module-discus {  padding-bottom: 40px;}
+	.yz-idx-module-discus {  }
 	.yz-idx-module-discusbox { position: relative; height: 138px; width: 600px;  margin-left: 20px; }
 	.yz-idx-module-discus-ta { border: 1px solid #CCC;}
 		.yz-idx-module-discus-ta textarea { margin: 10px; padding: 0; border: 0px outset buttonface; width: 578px; height: 100px; color: #999; outline: 0 none; line-height: 20px; overflow: hidden; font-family: "Microsoft YaHei"; font-size: 14px; line-height: 20px; resize: none; background: none;}
@@ -159,7 +159,7 @@
 			.yz-idx-module-discus-cmtone-name i { color: #CCC; font-size: 12px; margin-left: 10px; font-style: italic; }
 			.yz-idx-module-discus-cmtone-name span { color: #3BB; display: block; height: 25px; line-height: 25px; padding: 0 10px; font-family:Arial, Helvetica, sans-serif;}
 			.yz-idx-module-discus-cmtone-ctmain { width: 520px; line-height: 30px; text-align: left; color: #999; font-size: 14px;}
-	.yz-idx-module-discus-more { width: 600px;  margin-left: 20px; background: #333;height: 50px;  position: relative;}
+	.yz-idx-module-discus-more { width: 600px; background: #333;height: 50px;  position: relative;}
 	a.yz-idx-module-discus-more:hover { background: #3BB;}
 		.yz-idx-module-discus-more p { line-height: 50px; width: 600px; text-align: center; font-size: 14px; color: #FFF; cursor: pointer;}
 		.yz-idx-module-discus-more span { display: block; height: 34px; width: 34px; background: url(http://static.ueue.cc/www/img/show-bodyico.png) -200px -2090px no-repeat; position: absolute; right: 30px; top: 8px; cursor: pointer;}
