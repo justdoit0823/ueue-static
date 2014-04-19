@@ -9,7 +9,7 @@ var indexlist={
     "auth" : 5,
     "confirm" : 6,
     "realname" : 6
-}
+};
 
 $(document).ready(function(){
 
