@@ -21,9 +21,8 @@ $(document).ready(function(){
 	    success:function(result){
 		if(result.status){
 		    alert("评论成功！");
-		    $(".yz-idx-module-discus-sub").val("发言");
-		    $(".yz-idx-module-discus-sub").attr('disabled','');
 		    $(result.msg).appendTo(".yz-idx-module-discus-ul");
+		    $(".yz-idx-module-discus-ta textarea").val('');
 		}
 		else{
 		    alert(result.msg);
