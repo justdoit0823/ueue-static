@@ -263,9 +263,10 @@
 		.ue-user-right-list { padding: 10px 0;}
 		.ue-user-right-list ul li { float: left; margin-left: 14px; margin-top: 10px;}		
 		.yz-idx-goodwork { height: 402px;  position: relative; border-bottom: 1px solid #CCC;}
-		.yz-idx-goodwork-box { width: 320px; height: 342px; overflow: hidden; position: relative; margin-left: 8px;}
-		.yz-idx-goodwork-ul { position: absolute; top: 0;}
-		.yz-idx-goodwork-ul li { width: 320px; height: 320px; overflow: hidden;}
+		.yz-idx-goodwork-box { width: 320px; height: 342px; position: relative; margin-left: 8px;}
+		.yz-idx-goodwork-ul { height: 320px; overflow: hidden;}
+		.yz-idx-goodwork-ul li { width: 320px; height: 320px; float: left; }
+		.slider-container { width: 320px; height: 320px;}
 		.yz-idx-gw-pic { height: 205px; width: 320px; position: relative;}
 			.yz-idx-gw1 { height: 185px; width: 296px; margin-top: 20px; margin-left: 12px; overflow: hidden; position: relative;}
 		.yz-idx-gw-pic span { background: url(http://static.ueue.cc/www/img/show-bodyico.png) 0 -2016px; display: block; height: 35px; width: 296px; position: absolute; left: 12px; bottom: 0;}
@@ -275,9 +276,13 @@
 				.yz-idx-gw-title a:hover { color: #000;}
 			.yz-idx-gw-by { width: 296px; line-height: 40px; height: 40px; overflow: hidden; padding: 0 12px; text-align: left;}
 				.yz-idx-gw-by a:hover { text-decoration: underline;}
-		.yz-idx-goodwork-point { position: absolute; bottom: 20px; left: 113px; display: block; height: 12px; width: 110px;}
-			.yz-idx-goodwork-point li { float: left; width: 12px; height: 12px; margin: 0 5px; overflow: hidden; background: url(http://static.ueue.cc/www/img/gw-pt.png) 0 0 no-repeat; cursor: pointer;}
-			li.gw-pton { background: url(http://static.ueue.cc/www/img/gw-pt.png) 0 -12px no-repeat !important;}
+		.current-pagination {background: url(http://static.ueue.cc/www/img/gw-pt.png) 0 -12px no-repeat !important;}
+		.pagination { position: absolute; bottom: 20px; left: 113px; display: block; height: 12px; width: 110px;}
+			.pagination li { float: left; width: 12px; height: 12px; margin: 0 5px; overflow: hidden; background: url(http://static.ueue.cc/www/img/gw-pt.png) 0 0 no-repeat; cursor: pointer;}
+		.yz-idx-slider-left { display: block; height: 50px; width: 50px; background: url(http://static.ueue.cc/www/img/show-bodyico.png) -129px -1421px; position: absolute; top: -50px; right: 50px; cursor: pointer; outline: none; border: 0px outset buttonface;}
+				input.yz-idx-slider-left:hover { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -23px -1421px; }
+			.yz-idx-slider-right { display: block; height: 50px; width: 50px; background: url(http://static.ueue.cc/www/img/show-bodyico.png) -188px -1421px; position: absolute; top: -50px; right: 0px; cursor: pointer; outline: none; border: 0px outset buttonface;}
+				input.yz-idx-slider-right:hover { background: url(http://static.ueue.cc/www/img/show-bodyico.png) -69px -1421px;}
 			
 			
 /*--------------------------事件搜索条---------------------------*/
