@@ -364,3 +364,19 @@ input { background: none;}
 		.ue-stag-normal>div.z>span { float: left; padding: 0 5px; width: 70px; color: #fff; background: #b1b1b1;  text-align:center;}
 		.ue-stag-normal>div.z>a {  float: left; padding-left: 5px; width: 75px; color: #fff; line-height: 30px; }
 			.ue-design>div>a:hover,.ue-stag-normal>div.z>a:hover { background: #fff; color: #333; -webkit-transition: all 500ms;}
+
+/*标签选择*/
+.ue-stag-box { width: 650px !important; margin-left: -340px; margin-top: -225px; padding: 30px 10px 60px 10px; background: #3bb;}
+				.ue-stag-normal>div.z:hover { background: #333 !important; }
+				.ue-stag { background: none !important;} 
+				.ue-stag-box { border: 5px solid #f0f0f0 !important;}
+				.ue-stag-normal>div.z>span { background: #333;}
+				.ue-design>div>span { background: #333;}
+				.ue-stag-maintitle { top: -30px !important;}
+				.ue-stag-maintitle span { font-size: 12px; padding-left: 10px;}
+				.ue-stag-normal { border-bottom: 1px solid #fff;}
+				.ue-stag-drop { height: 43px; width: 43px; display: block; background: url(../../static/img/editor.png) -12px -164px no-repeat; cursor: pointer; position: absolute; bottom: 12px; right: 90px;}
+				.ue-stag-drop:hover { background: url(../../static/img/editor.png) -57px -164px no-repeat;}
+				.ue-stag-ok { height: 43px; width: 43px; display: block; background: url(../../static/img/editor.png) -12px -209px no-repeat; cursor: pointer; position: absolute; bottom: 12px; right: 30px;}
+				.ue-stag-ok:hover { background: url(../../static/img/editor.png) -57px -209px no-repeat;}
+				.tag-chosen { background: #fff; color: #3bb !important;}
