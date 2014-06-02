@@ -375,8 +375,8 @@ input { background: none;}
 				.ue-stag-maintitle { top: -30px !important;}
 				.ue-stag-maintitle span { font-size: 12px; padding-left: 10px;}
 				.ue-stag-normal { border-bottom: 1px solid #fff;}
-				.ue-stag-drop { height: 43px; width: 43px; display: block; background: url(../../static/img/editor.png) -12px -164px no-repeat; cursor: pointer; position: absolute; bottom: 12px; right: 90px;}
-				.ue-stag-drop:hover { background: url(../../static/img/editor.png) -57px -164px no-repeat;}
-				.ue-stag-ok { height: 43px; width: 43px; display: block; background: url(../../static/img/editor.png) -12px -209px no-repeat; cursor: pointer; position: absolute; bottom: 12px; right: 30px;}
-				.ue-stag-ok:hover { background: url(../../static/img/editor.png) -57px -209px no-repeat;}
+				.ue-stag-drop { height: 43px; width: 43px; display: block; background: url(http://static.ueue.cc/www/img/editor.png) -12px -164px no-repeat; cursor: pointer; position: absolute; bottom: 12px; right: 90px;}
+				.ue-stag-drop:hover { background: url(http://static.ueue.cc/www/img/editor.png) -57px -164px no-repeat;}
+				.ue-stag-ok { height: 43px; width: 43px; display: block; background: url(http://static.ueue.cc/www/img/editor.png) -12px -209px no-repeat; cursor: pointer; position: absolute; bottom: 12px; right: 30px;}
+				.ue-stag-ok:hover { background: url(http://static.ueue.cc/www/img/editor.png) -57px -209px no-repeat;}
 				.tag-chosen { background: #fff; color: #3bb !important;}
