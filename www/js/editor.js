@@ -1,7 +1,5 @@
 //editor part
 
-var lable="";
-
 var swfu;
 
 $(document).ready(function(){
@@ -12,6 +10,7 @@ $(document).ready(function(){
 
     $(".editor-cc a").click(function(){
 	$(".editor-cc p").text($(this).text());
+	$(".editor-cc p").attr("snum", $(this).attr("snum"));
     });
 
 
@@ -245,4 +244,13 @@ function rebind() {
     $(".work-del-tag").on("click", function() {
       $(this).parent().remove();
     });
+}
+
+function gettags(det){
+
+    var lable = new Array();
+    $(".work-tag-content").each(function(idx, element) {
+        lable.push($(element).text().trim());
+    });
+    return lable.join(det);
 }
