@@ -543,6 +543,31 @@
 	.ue-hp-info { padding: 0 15px;}
 	.ue-hp-info p { line-height: 25px; padding: 0 0 20px; color: #333; text-shadow: 1px 1px 1px #FFF;}
 	.ue-hp-info span { line-height: 25px; padding: 4px 10px; background: #3BB; color: #FFF; text-shadow: none; margin-right: 10px;}
+	
+/*
+	Level:			Channal
+	Explain:		专辑搜索页
+	Last Modify:	Alex
+*/		
+	.yz-album-ul { width: 600px; padding: 0 20px;}
+						.yz-album-ul li { padding-bottom: 20px;}
+					.ue-album-pic { position: relative; width: 600px; height: 350px; overflow: hidden;}
+						.ue-album-pic a { display: block; width: 600px; height: 350px;}
+					.ue-album-pic div { width: 300px; height: 350px; position: absolute; left: -351px; top: 0; background:url(http://static.ueue.cc/www/img/pngbg80.png) repeat;}
+					div.ue-album-pic:hover div { left: 0; -webkit-transition: all 500ms;}
+					.ue-album-pic div span { display: block; position: absolute; width: 60px; height: 60px;}
+					.ue-album-up { background: url(http://static.ueue.cc/www/img/index.png) -0px -145px no-repeat;}
+					.ue-album-down { background: url(http://static.ueue.cc/www/img/index.png) -10px -220px no-repeat; bottom: 0; right: 0;}
+					.ue-album-summary { width: 180px; padding: 60px 60px 20px; color: #ccc; line-height: 20px; max-height: 180px;}
+					.ue-album-channel { width: 180px; padding-top: 20px; margin: 0 60px; border-top: 1px solid #fff; color: #fff; text-align: center;}
+					.ue-album-title { line-height: 40px; font-size: 18px;}
+						.ue-album-title a { color: #333;}
+						.ue-album-title a:hover { color: #3bb; -webkit-transition: all 500ms;}
+					.ue-album-tag { line-height: 20px;}
+						.ue-album-tag a { color: #999;}
+						.ue-album-tag a:hover { color: #000; -webkit-transition: all 500ms;}
+					.ue-album-right-ul { width: 296px; padding: 0 20px;}
+						.ue-album-right-ul li { margin-top: 20px;}
 /* ---------end------------------------ */
 
 
