@@ -410,20 +410,27 @@
 	.yz-idx-report { display: block; position: absolute; bottom: 10px; right: 10px;  outline: 0 none;  padding: 0 10px; line-height: 30px; height: 30px;  color: #333; background: #FFF; font-size: 12px; border: 1px solid #E2E2E2;}
 	.yz-idx-report:hover { background: #3BB; cursor: pointer; color: #FFF; -webkit-transition: all 500ms;}
 
-/* ------------记录添加媒体报道--------- */
+/* ------------记录添加媒体报道和添加web弹出框--------- */
 
-.ue-idx-report { height: 100%; width: 100%; position: fixed; top: 0; left: 0; background: url(http://static.ueue.cc/www/img/pngbg80.png) repeat; z-index: 1000;}
-				.ue-idx-report-choose { width: 600px; height: 280px; padding: 10px 0; position: absolute; top: 50%; left: 50%; margin-left: -300px; margin-top: -150px; z-index: 1001; border-top: 2px solid #FFF; border-bottom: 2px solid #FFF;}
-				.ue-report-close {	display: block; width: 70px; height: 70px; position: fixed; top: 0px; right: 0px; background: url(http://static.ueue.cc/www/img/report.png) -197px -35px no-repeat; cursor: pointer; z-index: 1005;}
-				.ue-report-close:hover{ background: url(http://static.ueue.cc/www/img/report.png) -310px -35px no-repeat;}
-				.ue-idx-report-choose div.z { width: 600px; height: 280px; position: relative;}
-				.ue-idx-report-choose p {  line-height: 40px; height: 40px; color: #FFF; font-size: 18px; position: absolute; left: 0; top: -60px;}
+.ue-idx-report,.ue-idx-social { height: 100%; width: 100%; position: fixed; top: 0; left: 0; background: url(http://static.ueue.cc/www/img/pngbg80.png) repeat; z-index: 1000;}
+				.ue-idx-report-choose,.ue-idx-social-choose { width: 600px; height: 280px; padding: 10px 0; position: absolute; top: 50%; left: 50%; margin-left: -300px; margin-top: -150px; z-index: 1001; border-top: 2px solid #FFF; border-bottom: 2px solid #FFF;}
+				.ue-report-close,.ue-social-close {	display: block; width: 70px; height: 70px; position: fixed; top: 0px; right: 0px; background: url(http://static.ueue.cc/www/img/report.png) -197px -35px no-repeat; cursor: pointer; z-index: 1005;}
+				.ue-report-close:hover,.ue-social-close:hover{ background: url(http://static.ueue.cc/www/img/report.png) -310px -35px no-repeat;}
+				.ue-idx-report-choose div.z,.ue-idx-social-choose div.z { width: 600px; height: 280px; position: relative;}
+				.ue-idx-report-choose p,.ue-idx-social-choose p {  line-height: 40px; height: 40px; color: #FFF; font-size: 18px; position: absolute; left: 0; top: -60px;}
+				.ue-social-button { position: absolute; bottom: -50px; right: 0; width: 600px;}
+					.ue-social-button a { outline: 0 none;  padding: 0 10px; line-height: 30px; height: 30px;  color: #333; background: #FFF; font-size: 12px; border: 1px solid #E2E2E2;}
+					.ue-social-button a:hover {background: #3BB; cursor: pointer; color: #FFF; -webkit-transition: all 500ms;}
 				.ue-report-newpost { display: block; position: absolute; bottom: -50px; right: 0;  outline: 0 none;  padding: 0 10px; line-height: 30px; height: 30px;  color: #333; background: #FFF; font-size: 12px; border: 1px solid #E2E2E2;}
 				.ue-report-newpost:hover { background: #3BB; cursor: pointer; color: #FFF; -webkit-transition: all 500ms;}
 				.ue-idx-report-choose div.y { width: 600px; height: 280px;  position: relative; overflow: hidden; }
-				.ue-idx-report-choose-ul { display: block; width: 600px; position: absolute; left: 0; }
+				.ue-idx-report-choose-ul,.ue-idx-social-choose-ul { display: block; width: 600px; position: absolute; left: 0; }
 					.ue-idx-report-choose-ul li { float: left; width: 600px; height: 40px; }
 						.ue-idx-report-choose-ul li:hover span { color: #3BB;}
+					.ue-idx-social-choose-ul li { float: left; height: 30px; padding: 5px 10px 5px 0;}
+						.ue-idx-social-choose-ul li a { display: block; height: 25px; line-height: 25px; padding: 0 8px; border: 1px solid #fff; color: #fff;}
+						.ue-idx-social-choose-ul li a:hover { background: #3bb; cursor: pointer; -webkit-transition: all 500ms;}
+					.ue-idx-social-tip {  position: absolute; bottom: -50px; left: 0; line-height: 30px; color: #fff;}
 					.ue-idx-report-choose-ul span { width: 400px; font-size: 14px; color: #FFF; float: left; line-height: 39px;}
 					.ue-idx-report-choose-ul a { float: right; margin-left: 10px; width: 22px; height: 22px; margin-top: 9px;}
 					.ue-idx-report-choose-yes { background: url(http://static.ueue.cc/www/img/report.png) 0 0 no-repeat;}
@@ -431,6 +438,8 @@
 					.ue-idx-report-choose-watch { background: url(http://static.ueue.cc/www/img/report.png) 0 -30px no-repeat;}
 					.ue-idx-report-choose-watch:hover { background: url(http://static.ueue.cc/www/img/report.png) -30px -30px no-repeat;}
 				.ue-idx-report-note { font-size: 14px !important; line-height: 40px; color: #FFF; top: 0 !important;}
+				.ue-social-url { font-size: 18px !important; line-height: 30px; color: #FFF; top: 20px !important;}
+				.ue-social-url input { line-height: 20px; outline: none; border: none; border-bottom: 1px solid #fff !important; background: none; color: #fff; padding: 5px; width: 300px; height: 20px; font-size: 18px;}
 				.ue-idx-report-note i { color: #3BB; padding: 0 5px;}
 				.ue-report-search { height: 30px; position: absolute; right: 0; top: -54px;}
 				.ue-report-search-text { width: 180px; height: 18px; line-height: 18px; font-size: 12px; padding: 4px 5px 6px;  outline: none; background: none; border: 1px solid #FFF ; border-right: none !important; font-family: "Microsoft YaHei"; color: #FFF; }
