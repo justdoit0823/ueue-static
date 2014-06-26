@@ -168,9 +168,7 @@
 	.yz-hdline { position: absolute; height: 10px; top: 0px; left: 0px;  background: #333; }
 	.yz-hd { height: 142px; position: relative; }
 	.logo { position: absolute; top: 5px; display: block; background: url(http://static.ueue.cc/www/img/logo.png) 0px 0px no-repeat; width: 196px; height: 130px; }
-		a.logo:hover { background: url(http://static.ueue.cc/www/img/logo.png) 0px 130px; }
-		.logo span { position: absolute; top: 50px; right: 1px; display: none; background: url(http://static.ueue.cc/www/img/icon-hd.png) -438px -26px no-repeat; padding-left: 15px; height: 12px; overflow: hidden; line-height: 10px; font-size: 12px; color: #333; width: 40px; padding-top: 1px; }
-		a.logo:hover span { display: block;}
+		a.logo:hover { background: url(http://static.ueue.cc/www/img/logo.png) 0px 130px;}
 	.yz-nav { display: block; width: 480px; position: absolute; top: 42px; left: 250px; overflow: hidden;}
 		.yz-nav li { float: left; padding: 10px 25px 10px 0;}
 		.yz-nav li a:link,.yz-nav li a:visited { font-size: 19px; color: #000;  text-shadow: 1px 1px 1px #FFF;}
