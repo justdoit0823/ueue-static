@@ -1,4 +1,5 @@
 	body { min-height: 100%; min-width: 1242px;}
+	var{font-style:normal}
 	.yz-idx-top { padding: 0 20px;}
 	.pluts { position: relative; z-index: 1; }
 	.yz-idx-search {padding: 0 20px;}
@@ -366,6 +367,7 @@
 			.showct-ct-tupianimg { max-width: 600px;}
 		.showct-ct-shipin { padding: 20px 0; width: 600px; overflow: hidden;}
 		.showct-ct-direction,.showct-ct-tupian p { font-size: 14px; color: #666; width: 600px; line-height: 30px;}
+		.showct-ct-direction img{width:100%}
 		.showct-ct-surpot { width: 640px; height: 160px;}
 			.showct-ct-surpot-num { width: 300px; margin-left: 20px; line-height: 120px; text-align: center; font-size: 60px; color: #999;}
 			.showct-ct-surpot-icon-on { width: 120px; height: 120px; margin-right: 100px; background: url(http://static.ueue.cc/www/img/show-bodyico.png) -5px -1094px no-repeat; cursor: pointer;}
@@ -553,14 +555,18 @@
 						.yz-album-ul li { padding-bottom: 20px;}
 					.ue-album-pic { position: relative; width: 600px; height: 350px; overflow: hidden;}
 						.ue-album-pic a { display: block; width: 600px; height: 350px;}
-					.ue-album-pic div { width: 300px; height: 350px; position: absolute; left: -351px; top: 0; background:url(http://static.ueue.cc/www/img/pngbg80.png) repeat;}
-					div.ue-album-pic:hover div { left: 0; -webkit-transition: all 500ms;}
+						.ue-album-pic a img{width:100%;}
+					.ue-album-pic .ue_pic_info{ width: 300px; height: 350px; position: absolute; left: -351px; top: 0; background:url(http://static.ueue.cc/www/img/pngbg80.png) repeat;}
+					.ue-album-pic:hover .ue_pic_info{ left: 0; -webkit-transition: all 500ms;}
+					.yz-album-ul .ue_album_pro{border:1px solid #cfcfcf;border-top:none;overflow: hidden;}
+					.yz-album-ul .ue_album_pro ul{overflow: hidden;margin-left:-1px;padding:5px 0;}
+					.yz-album-ul .ue_album_pro li{float:left;width:21%;padding-left:3%;padding-bottom:0;border-left:1px solid #cfcfcf;}
 					.ue-album-pic div span { display: block; position: absolute; width: 60px; height: 60px;}
 					.ue-album-up { background: url(http://static.ueue.cc/www/img/index.png) -0px -145px no-repeat;}
 					.ue-album-down { background: url(http://static.ueue.cc/www/img/index.png) -10px -220px no-repeat; bottom: 0; right: 0;}
 					.ue-album-summary { width: 180px; padding: 60px 60px 20px; color: #ccc; line-height: 20px; max-height: 180px;}
 					.ue-album-channel { width: 180px; padding-top: 20px; margin: 0 60px; border-top: 1px solid #fff; color: #fff; text-align: center;}
-					.ue-album-title { line-height: 40px; font-size: 18px;}
+					.ue-album-title { line-height: 30px; font-size: 18px;}
 						.ue-album-title a { color: #333;}
 						.ue-album-title a:hover { color: #3bb; -webkit-transition: all 500ms;}
 					.ue-album-tag { line-height: 20px;}
@@ -570,5 +576,26 @@
 						.ue-album-right-ul li { margin-top: 20px;}
 /* ---------end------------------------ */
 
+
+.album_r_box {padding-bottom:10px;margin-bottom:10px}
+.album_r_box h3{height:50px;line-height:55px;font-size:16px;color:#3bb;border-bottom:1px solid #ccc;margin-bottom:20px;}
+.album_r_box p{padding:5px 20px}
+.album_r_box p em{padding:0 2px;color:#3bb;font-style:normal}
+
+.album_detail{font-size:14px}
+.album_detail .album_detail_num{font-size:20px;font-size:bold;font-family: Arial;}
+.album_detail .album_detail_num var{font-size:40px}
+.album_detail .album_detail_pro{overflow: hidden}
+.album_detail ul{padding:20px 0;margin-left:-1px;overflow:hidden}
+.album_detail ul li{float:left;width:45%;padding-left:4%;border-left:1px solid #ccc;text-align:center}
+
+.album_support_list{}
+.sup_con_box{padding:0 20px 20px;border:1px solid #ccc;font-size:14px;margin-bottom:20px;}
+.sup_con_box h3{height:40px;line-height:45px;font-size:16px;font-weight:normal;border-bottom:1px dashed #ccc;overflow:hidden}
+.sup_con_box h3 b{display:inline-block;vertical-align:bottom}
+.sup_con_box h3 span{float:right;font-size:12px}
+.sup_con_box .sup_txt{padding:15px 0}
+.sup_con_box .sup_txt p{line-height:25px}
+.sup_con_box .sup_btn a{display:inline-block;width:120px;height:38px;line-height:38px;text-align:center;background: #3bb;border-radius: 7px;box-shadow: 0 5px #16A1A1;color:#fff;}
 
 
